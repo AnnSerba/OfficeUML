@@ -1,0 +1,604 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="e01322cb-731a-4712-baf7-3887530a0dc4" name="UMLUseCaseDiagram1" linkedPackageId="763e91ea-900f-4e61-b464-ef8345297088" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="010e67e3-e983-4dcc-bf13-b3b03dc081fd" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="3ecf8201-4fbd-45e8-be6f-86830bad9dc8" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="2178d1be-fc1a-45b7-8652-e20de20027f9">
+          <propertyInstance Id="7221a5c9-da9d-496d-a180-eb9281f56b04" name="BaseName">
+            <elementDefinition Id="f8f39fbb-059f-483b-aecd-7212615c2c3e" />
+          </propertyInstance>
+          <elementDefinition Id="672aedbf-18f7-42fb-a211-bf092ccd2e39" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="4c63469f-b8be-4219-b616-39f149db50c6">
+          <propertyInstance Id="fc16d9d2-41f9-4a6f-b0e8-efaa4f918ee8" name="ClrAttributes">
+            <elementDefinition Id="fc418b92-6851-4332-ab55-3d2e2a2b71b6" />
+          </propertyInstance>
+          <elementDefinition Id="514a1de6-d73d-4b01-8126-1df3880fe3c6" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="35bae936-70cf-443d-9620-6ff0186fde24">
+          <propertyInstance Id="459dfe1a-8530-4378-8e64-f3bfc0dfe0aa" name="Usings">
+            <elementDefinition Id="1ebae119-565b-4dc3-a9aa-584b8d696c61" />
+          </propertyInstance>
+          <elementDefinition Id="f57c6243-0a63-44e5-a2cb-3b21e069389f" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="511aeb46-231d-448d-a922-a96429f8d7e3" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="e3752f1d-a6f6-4a7e-b20f-12296f9bc57b" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="d439e2a6-577a-4d98-acd1-704b4ebe7a4b">
+          <propertyInstance Id="68d5559c-1bd1-43f9-be61-7645256ec69f" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="df57099e-c9d9-47a5-823d-f9164b929dcc" />
+          </propertyInstance>
+          <elementDefinition Id="5372f781-ecf3-48b8-a0da-751b6d6e9287" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="feb894d9-1890-4e5c-83f5-818628796abb">
+          <propertyInstance Id="15cbf675-7cd9-4f0f-a5f0-a66156d6b671" name="TemplateFilePath" value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="f9d6f646-a7de-4e96-9bde-6b35304848cb" />
+          </propertyInstance>
+          <elementDefinition Id="2e6086cd-368e-4afc-940d-767d522db0a6" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="fdfa19b7-4362-4d5f-b1e3-1634962c0350">
+          <propertyInstance Id="b782d912-98c1-4bbb-8667-50b1c2720236" name="ProjectPath" value="ClassTemplate=..\OfficeLib\OfficeLib.csproj|EnumTemplate=..\OfficeLib\OfficeLib.csproj|InterfaceTemplate=..\OfficeLib\OfficeLib.csproj|StructTemplate=..\OfficeLib\OfficeLib.csproj">
+            <elementDefinition Id="c1b4706f-59b9-4a76-a2be-3a73036229fa" />
+          </propertyInstance>
+          <elementDefinition Id="12269ab9-96e5-4109-ae36-b179651c2601" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="c5021f67-0832-4651-9140-5174126739dd">
+          <propertyInstance Id="e60f0dd8-e827-4185-b7d2-e2668c69a08d" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="f5872753-40a9-4596-b26a-29bda9262039" />
+          </propertyInstance>
+          <elementDefinition Id="82a664c0-c92e-40a3-8ad7-3ff13f7c8784" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="c3560458-9f0f-4a37-9d8c-e00566285691">
+          <propertyInstance Id="bfb56a20-5d92-4f5c-9d07-5ed73638a08e" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="a53417a6-6328-4180-ad33-0e88979903f7" />
+          </propertyInstance>
+          <elementDefinition Id="5003a186-4ba0-4def-840a-a4c174399084" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="dcaf1ced-14f8-4d89-b24f-4d2c2d22ff79">
+          <propertyInstance Id="84a8a83a-cd67-4461-bf1b-c55ef6f80437" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="42f3f9d4-850e-4f06-93e8-260dc4f0a4f2" />
+          </propertyInstance>
+          <elementDefinition Id="cf87f885-eff2-4895-9d7e-61e595dc7346" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="8e0768da-b4a1-498c-9cb5-2153bada4d71">
+          <propertyInstance Id="900483b1-83d7-4711-979d-77c772cfccf4" name="Parameters">
+            <elementDefinition Id="d21b8ab8-aafe-406a-9e14-88b9de02640c" />
+          </propertyInstance>
+          <elementDefinition Id="a1536c03-448d-4ed7-b495-8aac1049d0fe" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="bf1624d5-a974-442f-8ff7-bb2d04a9dec7" name="Офис Юридической фирмы" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="955bed28-572c-41ec-bbc5-f404790a10f5" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="c4c3378b-43e6-44c1-839f-ae6d45a3ed33" name="Юрист" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c0553b5d-6f8d-4266-be38-84518879c788" />
+        <targetEnds>
+          <association Id="bef35d3a-7e57-4bd7-8aa4-486519b7d76c" isDerived="false" sourceEndRoleName="Юрист" targetEndRoleName="Работа со списком клиентов" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="7f2ec2a8-eb95-4d03-acd5-4096b8d5b1db" LastKnownName="Работа с реестром" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="52296904-9662-4ed8-ab7a-0e8edf2d1f5b" name="Юрист" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2c01110b-2bcb-4535-ac12-be845dd14c19" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9dc16310-08f1-4fb5-8d27-bc9311fc1b54" name="Работа со списком клиентов" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a15a7d7d-99f7-4f1c-87ba-787732170891" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="df8420c2-95e0-4332-916e-d92783b8b305" />
+          </association>
+          <association Id="d28e5f84-1bb7-47d3-8751-b9febeff88f0" isDerived="false" sourceEndRoleName="Юрист" targetEndRoleName="Просмотр задач" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="f6e8d33b-18a6-44f7-82ab-ff682ea4af12" LastKnownName="Просмотр задач" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="45aa66ce-7fde-43b3-8927-487ab904d005" name="Юрист" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="619cae09-acea-468c-8e34-580f5e7655e4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="51ebe5c6-de93-45b0-a97d-183df2209d8d" name="Просмотр задач" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="3ba84a23-8664-49da-9327-d1f8bd4c7250" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b94f75fe-4c79-4507-8642-5a317b966ec9" />
+          </association>
+          <association Id="771cbfc4-815c-4f6e-9ebb-9a2bb23aa261" isDerived="false" sourceEndRoleName="Юрист" targetEndRoleName="Поиск задачи" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d9991601-60de-4904-8783-33997276cd8c" LastKnownName="Поиск задачи" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c5018568-d392-437f-932a-a8a8a9f0354c" name="Юрист" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="30677792-388b-4b58-8869-a18dd7bb9960" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="87eca172-af75-49f6-a727-2a2e48791d75" name="Поиск задачи" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="40d2e274-4aa6-4380-a79a-a6f6beac5f22" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="362dfbc1-a6b8-4780-a7f9-090342dec960" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="7f2ec2a8-eb95-4d03-acd5-4096b8d5b1db" name="Работа с реестром" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b84024ed-3809-4017-be05-7f3193032281" />
+        <subjects>
+          <subsystemMoniker Id="bf1624d5-a974-442f-8ff7-bb2d04a9dec7" LastKnownName="Офис Юридической фирмы" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="682af75c-136c-42d4-b6c3-527415c5c8b5" name="Работа со списком клиентов" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="bb5bd473-271b-4b62-9f92-cb3e0866eb79" />
+        <generalsInternal>
+          <generalization Id="9e8e20ee-234b-46d4-a403-fc58063def9f" isSubstitutable="false">
+            <useCaseMoniker Id="7f2ec2a8-eb95-4d03-acd5-4096b8d5b1db" LastKnownName="Работа с реестром" />
+            <elementDefinition Id="59998e8f-4c1d-40cd-abde-accbcc5bed70" />
+          </generalization>
+        </generalsInternal>
+        <subjects>
+          <subsystemMoniker Id="bf1624d5-a974-442f-8ff7-bb2d04a9dec7" LastKnownName="Офис Юридической фирмы" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="d9ce9119-3eca-4813-86b3-9ab8ca42582d" name="Работа с документами" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="bb9b2fc4-e230-4d82-8007-2060b5d4734c" />
+        <generalsInternal>
+          <generalization Id="06f12f86-a444-4650-bb9b-0cc7fc7deb69" isSubstitutable="false">
+            <useCaseMoniker Id="7f2ec2a8-eb95-4d03-acd5-4096b8d5b1db" LastKnownName="Работа с реестром" />
+            <elementDefinition Id="676b5be6-768c-4c25-b5d9-35407ce50f50" />
+          </generalization>
+        </generalsInternal>
+        <subjects>
+          <subsystemMoniker Id="bf1624d5-a974-442f-8ff7-bb2d04a9dec7" LastKnownName="Офис Юридической фирмы" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="902331a2-2816-4bf6-9533-0826c6e3115a" name="Просмотр списка клиентов" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="53f56677-c492-4302-907c-6d220cb2ba97" />
+        <extendedCases>
+          <extend Id="ae4ac31f-a2a6-4e97-b48a-406d72e6602e">
+            <useCaseMoniker Id="682af75c-136c-42d4-b6c3-527415c5c8b5" LastKnownName="Работа со списком клиентов" />
+            <elementDefinition Id="bf0aacc7-9357-498f-9625-cde099fd0987" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="bf1624d5-a974-442f-8ff7-bb2d04a9dec7" LastKnownName="Офис Юридической фирмы" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="e62bfc50-2339-48a6-91a5-f11160c41773" name="Добавление нового клиента" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a0cb8563-14b9-4d82-9a89-6650cdf741f8" />
+        <extendedCases>
+          <extend Id="9aa552f6-288c-4066-a29d-f7ada9d3e344">
+            <useCaseMoniker Id="682af75c-136c-42d4-b6c3-527415c5c8b5" LastKnownName="Работа со списком клиентов" />
+            <elementDefinition Id="de7e95b2-a876-466f-a3e4-6d765fe56f5d" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="bf1624d5-a974-442f-8ff7-bb2d04a9dec7" LastKnownName="Офис Юридической фирмы" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="3b38fdc6-fcb1-4477-9245-db76563ac3e3" name="Удаление существующего клиента" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="47a5ea9d-4d68-4094-91ef-ff1e8330999a" />
+        <extendedCases>
+          <extend Id="8ceee9de-228c-41ba-953f-1a166f10557e">
+            <useCaseMoniker Id="682af75c-136c-42d4-b6c3-527415c5c8b5" LastKnownName="Работа со списком клиентов" />
+            <elementDefinition Id="73218807-447a-477c-9593-4c5bf883cfa8" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="bf1624d5-a974-442f-8ff7-bb2d04a9dec7" LastKnownName="Офис Юридической фирмы" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="c084f5d2-5db3-4542-ae07-370beded6ca4" name="Изменение существующего клиента" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e83558c4-a6ea-436e-80e6-bcfaa8e43646" />
+        <extendedCases>
+          <extend Id="e98d644c-82de-4ea8-94e1-39dd093b1584">
+            <useCaseMoniker Id="682af75c-136c-42d4-b6c3-527415c5c8b5" LastKnownName="Работа со списком клиентов" />
+            <elementDefinition Id="ee2d5cd8-53e4-4f19-9c84-36da7e711f83" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="bf1624d5-a974-442f-8ff7-bb2d04a9dec7" LastKnownName="Офис Юридической фирмы" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="313ba8ff-df6a-46ce-baeb-be1c1a749b8d" name="Просмотр списка документов" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="25476d64-dcde-469e-9b5b-989ad2673168" />
+        <extendedCases>
+          <extend Id="a1c0cec1-9a33-4258-8cc7-bdf59bb72efe">
+            <useCaseMoniker Id="d9ce9119-3eca-4813-86b3-9ab8ca42582d" LastKnownName="Работа с документами" />
+            <elementDefinition Id="89e36cc2-4798-411b-aaf5-a8215c2288fa" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="bf1624d5-a974-442f-8ff7-bb2d04a9dec7" LastKnownName="Офис Юридической фирмы" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="450f8cc5-f926-47bb-bc8d-93673c884208" name="Удаление существующего документа" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1df2eece-8df0-4e37-831e-3f4a0072a2a2" />
+        <extendedCases>
+          <extend Id="cac8bc80-9122-4930-8669-2c150ce32f48">
+            <useCaseMoniker Id="d9ce9119-3eca-4813-86b3-9ab8ca42582d" LastKnownName="Работа с документами" />
+            <elementDefinition Id="78df223f-2c45-4997-b2bd-f6c27fc051d4" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="bf1624d5-a974-442f-8ff7-bb2d04a9dec7" LastKnownName="Офис Юридической фирмы" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="7ba0fb1b-a3e8-4156-80ca-3e43b60fe594" name="Изменение существующего документа" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d696b92d-feac-430e-be90-68c725c9743c" />
+        <extendedCases>
+          <extend Id="0173a125-c921-47b6-8c3f-e2921fe78c9b">
+            <useCaseMoniker Id="d9ce9119-3eca-4813-86b3-9ab8ca42582d" LastKnownName="Работа с документами" />
+            <elementDefinition Id="0f78aef3-84e2-44e0-9197-68781fb2b917" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="bf1624d5-a974-442f-8ff7-bb2d04a9dec7" LastKnownName="Офис Юридической фирмы" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="28cf1123-e9d2-438a-90e4-c8ba10a167a6" name="Добавление нового документа" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f3bdda48-8f26-40cb-91d7-983559a32146" />
+        <extendedCases>
+          <extend Id="9311865d-311d-4dda-845e-32e9c39c4389">
+            <useCaseMoniker Id="d9ce9119-3eca-4813-86b3-9ab8ca42582d" LastKnownName="Работа с документами" />
+            <elementDefinition Id="aa46f110-22f5-42cb-afab-b8c70273f97d" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="bf1624d5-a974-442f-8ff7-bb2d04a9dec7" LastKnownName="Офис Юридической фирмы" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="adbab64c-f0d7-4744-9596-080127f3390c" name="Поиск документов" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a7dd2362-03b1-4526-b929-600720b6576b" />
+        <extendedCases>
+          <extend Id="2b986f94-9489-495d-a110-4c8cf5b76fad">
+            <useCaseMoniker Id="d9ce9119-3eca-4813-86b3-9ab8ca42582d" LastKnownName="Работа с документами" />
+            <elementDefinition Id="19feb6bb-4dd0-47ad-b1b2-ab3e6b3dbac2" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="bf1624d5-a974-442f-8ff7-bb2d04a9dec7" LastKnownName="Офис Юридической фирмы" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="3aecd2c6-7798-45f7-8e42-76e3a3122800" name="Поиск клиентов" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="be8bf7a5-de93-430a-af94-7b737c3a85b4" />
+        <extendedCases>
+          <extend Id="d6cd5ed5-5008-463c-bfbc-23bb2bce2fba">
+            <useCaseMoniker Id="682af75c-136c-42d4-b6c3-527415c5c8b5" LastKnownName="Работа со списком клиентов" />
+            <elementDefinition Id="80fa7411-9465-4ae9-a6fc-4653993f4425" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="bf1624d5-a974-442f-8ff7-bb2d04a9dec7" LastKnownName="Офис Юридической фирмы" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="3e4aef36-2fe4-49d5-9ccb-61920b0f08e2" name="Работа с расписанием" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="304cedf3-e889-46f1-ac7e-9b83c925bede" />
+        <subjects>
+          <subsystemMoniker Id="bf1624d5-a974-442f-8ff7-bb2d04a9dec7" LastKnownName="Офис Юридической фирмы" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="f6e8d33b-18a6-44f7-82ab-ff682ea4af12" name="Просмотр задач" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e8e46437-d83e-4373-b242-b46ee9ae3a64" />
+        <extendedCases>
+          <extend Id="4dbd1a9e-613a-4de2-b1ea-ec00b53daf01">
+            <useCaseMoniker Id="3e4aef36-2fe4-49d5-9ccb-61920b0f08e2" LastKnownName="Работа с расписанием" />
+            <elementDefinition Id="1e84edcc-2b1e-482b-ae17-1aee1beba19d" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="bf1624d5-a974-442f-8ff7-bb2d04a9dec7" LastKnownName="Офис Юридической фирмы" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="9a60c6e7-ef82-48de-b758-80f8f79b189a" name="Добавление новой задачи" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="52cf1f56-0a1a-4830-a889-6625fca70ed2" />
+        <extendedCases>
+          <extend Id="81e787e2-d109-44ab-88bc-379bc19cbf36">
+            <useCaseMoniker Id="3e4aef36-2fe4-49d5-9ccb-61920b0f08e2" LastKnownName="Работа с расписанием" />
+            <elementDefinition Id="af2ac794-3a32-4ea9-b629-b1811365a78b" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="bf1624d5-a974-442f-8ff7-bb2d04a9dec7" LastKnownName="Офис Юридической фирмы" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="db38f72e-e928-41ed-87e2-d1526b3d7309" name="Удаление существующей задачи" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="71234985-8654-40cf-871a-28eaf84a1e75" />
+        <extendedCases>
+          <extend Id="b1e0a387-8185-4ffd-b31d-37b297e88a89">
+            <useCaseMoniker Id="3e4aef36-2fe4-49d5-9ccb-61920b0f08e2" LastKnownName="Работа с расписанием" />
+            <elementDefinition Id="be45766f-066c-40ff-b354-b72c42ec5ac8" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="bf1624d5-a974-442f-8ff7-bb2d04a9dec7" LastKnownName="Офис Юридической фирмы" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="c9c1f163-2608-4ec4-88b1-9904c60f4731" name="Изменение существующей задачи" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0d9105fa-d514-4608-ba8c-a6bb2e0722c5" />
+        <extendedCases>
+          <extend Id="e1023d8c-5121-4c05-a931-e5cb6b454e46">
+            <useCaseMoniker Id="3e4aef36-2fe4-49d5-9ccb-61920b0f08e2" LastKnownName="Работа с расписанием" />
+            <elementDefinition Id="f8f59027-b725-4c7d-9aa2-4d21cfdd8e3b" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="bf1624d5-a974-442f-8ff7-bb2d04a9dec7" LastKnownName="Офис Юридической фирмы" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="d9991601-60de-4904-8783-33997276cd8c" name="Поиск задачи" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1b9a91e9-0c44-4725-b810-416c98aea1d0" />
+        <extendedCases>
+          <extend Id="7d338183-f192-401d-bc1e-5b1b3748ec80">
+            <useCaseMoniker Id="3e4aef36-2fe4-49d5-9ccb-61920b0f08e2" LastKnownName="Работа с расписанием" />
+            <elementDefinition Id="8b9a8219-d785-455d-acc5-595ee359973b" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="bf1624d5-a974-442f-8ff7-bb2d04a9dec7" LastKnownName="Офис Юридической фирмы" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="b126708c-3ab7-409e-b2a5-bc58a5496034" name="Изменение полей об оплате документов" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="92470ce0-6dde-4bb8-8bd4-1e9d19a36c8c" />
+        <extendedCases>
+          <extend Id="53b27e24-aade-428f-bbde-8c69eb546109">
+            <useCaseMoniker Id="d9ce9119-3eca-4813-86b3-9ab8ca42582d" LastKnownName="Работа с документами" />
+            <elementDefinition Id="2bb22d9d-c612-40ec-acf1-61aa8e4d35b9" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="bf1624d5-a974-442f-8ff7-bb2d04a9dec7" LastKnownName="Офис Юридической фирмы" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="01065e9a-713d-42b5-863e-88b8f646d60f" name="Просмотр номера документа и полей об оплате  " isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d44377af-2fc7-4ed6-9d75-d5d0ffbed4ff" />
+        <extendedCases>
+          <extend Id="693ee5bc-4a19-47c6-a819-ca93bf2f3e64">
+            <useCaseMoniker Id="d9ce9119-3eca-4813-86b3-9ab8ca42582d" LastKnownName="Работа с документами" />
+            <elementDefinition Id="6f9dee6f-3bc0-4622-95d7-244d4a56e4fa" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="bf1624d5-a974-442f-8ff7-bb2d04a9dec7" LastKnownName="Офис Юридической фирмы" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <useCaseModelRootHasTypes>
+      <actor Id="65d1ab37-798f-4311-bc3a-7425517c50e4" name="Секретарь" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3d56f3bf-7b23-4138-9c26-20d281c48653" />
+        <targetEnds>
+          <association Id="fa1a87a1-74be-41a1-87ab-6c39b8d272b8" isDerived="false" sourceEndRoleName="Секретарь" targetEndRoleName="Просмотр списка документов" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="313ba8ff-df6a-46ce-baeb-be1c1a749b8d" LastKnownName="Просмотр списка документов" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="99c3b913-d788-468e-bf34-46c611a592e0" name="Секретарь" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c29c5059-979e-47a2-a0b0-c7e49bff27a2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a59058c2-b0bb-4470-9d2a-1421bebc8da0" name="Просмотр списка документов" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="cf8d89d2-a32c-4494-a3fd-ae1f1507972e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f54cc7e3-638c-49fd-8052-ad13c6f320cb" />
+          </association>
+          <association Id="9e5ab653-c172-494e-b633-15a46f7b1eef" isDerived="false" sourceEndRoleName="Секретарь" targetEndRoleName="Поиск документов" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="adbab64c-f0d7-4744-9596-080127f3390c" LastKnownName="Поиск документов" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="747493ab-c59b-4826-b608-38fec3065309" name="Секретарь" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1e09466f-6f92-4ba3-a667-532419b0f235" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a53b21d0-30ff-4a39-82bf-4dfca8378469" name="Поиск документов" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1e132606-3098-47dd-ae5d-ecef8aa3850e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d5cf0f3d-e40c-4147-8221-bb11686dd036" />
+          </association>
+          <association Id="580c0406-67d7-4270-9d8b-630d27a36aec" isDerived="false" sourceEndRoleName="Секретарь" targetEndRoleName="Просмотр списка клиентов" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="902331a2-2816-4bf6-9533-0826c6e3115a" LastKnownName="Просмотр списка клиентов" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="95036d59-85cd-40fd-811e-e7c17fbb8f39" name="Секретарь" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a048b09c-e5dc-4049-8077-4e90a54facc7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="367910d6-3200-46d6-8d81-1cad1f1daf3f" name="Просмотр списка клиентов" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="5e7349c8-a08f-43f3-a8bf-5e94f45c8a0b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="2c915490-5970-49d1-88b7-54e76158e5ce" />
+          </association>
+          <association Id="63244b9e-6a16-4174-b728-5a5aeaaf7225" isDerived="false" sourceEndRoleName="Секретарь" targetEndRoleName="Поиск клиентов" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="3aecd2c6-7798-45f7-8e42-76e3a3122800" LastKnownName="Поиск клиентов" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8d4603c4-52a3-410c-b55b-6d9d1d4b2725" name="Секретарь" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="eea765aa-e04c-4e1e-8e19-e6dbeb45d872" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0ef1732f-10d4-4fa7-8df6-a70fb8329b1f" name="Поиск клиентов" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="eb5fe5dc-b81b-429f-88a9-98a6c25bb664" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="581971ad-a273-4923-ab35-95cabe2bb1ed" />
+          </association>
+          <association Id="464af3c1-f49a-4c14-9125-f8c9a1df902b" isDerived="false" sourceEndRoleName="Секретарь" targetEndRoleName="Работа с расписанием" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="3e4aef36-2fe4-49d5-9ccb-61920b0f08e2" LastKnownName="Работа с расписанием" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="bba0d0b8-9114-48b8-a070-f0886784458d" name="Секретарь" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="693216ea-b650-47f3-af07-6cdcdd12d9ac" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="39fd28df-2cd8-4e93-a56d-e45bf457a159" name="Работа с расписанием" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4293414e-c210-4bce-a485-8849be3ebd89" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="fda33522-51a3-4ba5-95be-8698ebee60d0" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="06af2ea6-7a55-4183-9777-4f55665e1113" name="Бухгалтер" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a2e863d3-5cdc-47f5-bf46-bc825149e629" />
+        <targetEnds>
+          <association Id="03af68ec-51fa-4629-8148-014c6c0749bc" isDerived="false" sourceEndRoleName="Бухгалтер" targetEndRoleName="Изменение полей об оплате документов" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b126708c-3ab7-409e-b2a5-bc58a5496034" LastKnownName="Изменение полей об оплате документов" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="008e1e2f-a3ec-4837-8ebf-217e29745fcd" name="Бухгалтер" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="13e009f3-ac5a-4ba9-9b2e-17aa959504ba" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ab5125a7-f5c3-4448-9019-061857b8a30f" name="Изменение полей об оплате документов" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="09bd282e-ab85-40f6-8bf5-5756d6bbb2bd" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8e177685-6454-4de9-8033-c92156b6d6b8" />
+          </association>
+          <association Id="6d2aa8c1-d7fe-42af-89a4-b3b70b1fca8a" isDerived="false" sourceEndRoleName="Бухгалтер" targetEndRoleName="Просмотр номера документа и полей об оплате  " isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="01065e9a-713d-42b5-863e-88b8f646d60f" LastKnownName="Просмотр номера документа и полей об оплате  " />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c4d288e4-9f0a-4c4b-90cb-46a2e39e056c" name="Бухгалтер" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="fb714f89-dbd6-4bc0-b9b3-442e2441242c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f6c2ef6f-967e-416f-8d4b-94a729fe5f1d" name="Просмотр номера документа и полей об оплате  " isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6989f69a-b120-460e-abab-d06261799ba6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6c61f9b4-c652-40f6-bae3-8a366e154993" />
+          </association>
+          <association Id="7c405d1c-c61a-453f-9570-8fb6732f885e" isDerived="false" sourceEndRoleName="Бухгалтер" targetEndRoleName="Поиск документов" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="adbab64c-f0d7-4744-9596-080127f3390c" LastKnownName="Поиск документов" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8a70cfc2-8431-48d5-89be-370f4e8274bb" name="Бухгалтер" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="fb12dd66-2368-42ed-82af-b573c6b20e5d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="be3af622-6221-42a6-9617-f785b6fbe6c7" name="Поиск документов" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="5383b85e-9132-42e4-82b7-2099295fd8a6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b34f1daa-efb0-4779-8b63-aa1389d2cae1" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="4ec5fdcb-606e-4f0e-ad24-7b8ddff659f4" name="Ведение журнала изменений в реестре" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5e21df23-cc50-41e0-b546-62651aae35d7" />
+        <additions>
+          <include Id="6ffa3e8b-f0df-4df0-b35a-23c2e82b817c">
+            <useCaseMoniker Id="7f2ec2a8-eb95-4d03-acd5-4096b8d5b1db" LastKnownName="Работа с реестром" />
+            <elementDefinition Id="3f954c13-9f62-417d-9d2f-9b70259bd273" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="bf1624d5-a974-442f-8ff7-bb2d04a9dec7" LastKnownName="Офис Юридической фирмы" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="763e91ea-900f-4e61-b464-ef8345297088" name="Office">
+    <elementDefinition Id="e6fc01d3-1355-4f2e-98ae-d4494043342b" />
+    <profileInstances>
+      <packageHasProfileInstances Id="6d672b9f-3e1b-4b92-8d12-fbd6e08efb10">
+        <profileInstance Id="b0331b3a-5ee9-47c8-a00f-bab85e21e024" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="f6a0ffa3-0c2a-4490-ae3c-7c218ee71d4e">
+        <profileInstance Id="c7e224de-841e-49ad-9806-56c403f32c85" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="71c6f824-5d80-424d-86ad-810b803a0e49">
+        <profileInstance Id="6653ed5e-a097-4bbb-a80e-7e136706a5ee" name="CSharpProfile">
+          <elementDefinition Id="64a30c3b-4375-4f05-a7ac-5a1bb253737c" />
+        </profileInstance>
+        <elementDefinition Id="18188c9d-f955-4218-a5f2-688f29517754" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="f6b146d3-b02b-4b3a-af6a-5ee4f07d04e5">
+        <profileInstance Id="932fca67-fa95-4c90-9287-1cebb899e061" name="TextTemplateBindings">
+          <elementDefinition Id="f5d92cc1-878e-4f70-8388-952564e385ce" />
+        </profileInstance>
+        <elementDefinition Id="aba17536-b07b-48a7-b939-de54ab50ad20" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

@@ -1,0 +1,578 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="317f7ae6-0223-494b-b6cb-50c1f9618c12" name="Activity2" linkedPackageId="d52b919f-c5fe-469e-9b1a-cddd95a02d49" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <ownedCommentsInternal>
+    <comment Id="3d14a63c-ad6a-4e54-b024-37a0e7b9e6ee">
+      <elementDefinition Id="58ff17d5-e0e1-47b6-98f1-18c1f4edcc3e" />
+      <body>Юридический отдел</body>
+    </comment>
+    <comment Id="18b32cf1-c1ef-47dc-8188-f052cf0bec55">
+      <elementDefinition Id="6c150ed3-ac50-4079-b05c-561119880d8a" />
+      <body>Секретарская</body>
+    </comment>
+    <comment Id="30c71062-bc59-40f1-994f-7085f68ce77a">
+      <elementDefinition Id="48810538-5fe4-461e-9891-61028493b58d" />
+      <body>Отдел финансов</body>
+    </comment>
+  </ownedCommentsInternal>
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="f0b269d0-a208-48ca-9d56-e12f436e3b83" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="3ecf8201-4fbd-45e8-be6f-86830bad9dc8" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="738f18c0-3097-4b6b-993f-ab868db804ea">
+          <propertyInstance Id="a5bfc439-6061-45fd-8e24-238edf869237" name="BaseName">
+            <elementDefinition Id="f8f39fbb-059f-483b-aecd-7212615c2c3e" />
+          </propertyInstance>
+          <elementDefinition Id="672aedbf-18f7-42fb-a211-bf092ccd2e39" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="cd607cc0-f8d9-4073-8c83-13ad5b154a04">
+          <propertyInstance Id="deb76e77-ee30-450e-8610-00bf4071c2f0" name="ClrAttributes">
+            <elementDefinition Id="fc418b92-6851-4332-ab55-3d2e2a2b71b6" />
+          </propertyInstance>
+          <elementDefinition Id="514a1de6-d73d-4b01-8126-1df3880fe3c6" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="28950b56-19ad-4dfe-a8cf-1134c30cc616">
+          <propertyInstance Id="e8c0c3e1-eaea-4d16-9d3a-64e196ece351" name="Usings">
+            <elementDefinition Id="1ebae119-565b-4dc3-a9aa-584b8d696c61" />
+          </propertyInstance>
+          <elementDefinition Id="f57c6243-0a63-44e5-a2cb-3b21e069389f" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="ebe95650-28eb-4f18-b2f4-fa37b01def7d" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="e3752f1d-a6f6-4a7e-b20f-12296f9bc57b" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="e445728d-f84e-48d4-861d-8033c9d2d400">
+          <propertyInstance Id="44940c98-0050-405c-8a97-927671e88550" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="df57099e-c9d9-47a5-823d-f9164b929dcc" />
+          </propertyInstance>
+          <elementDefinition Id="5372f781-ecf3-48b8-a0da-751b6d6e9287" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="d5947851-feaa-4911-91f5-238779b7e2f5">
+          <propertyInstance Id="5be87a2f-62d3-432e-96b9-0a1d0b619645" name="TemplateFilePath" value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="f9d6f646-a7de-4e96-9bde-6b35304848cb" />
+          </propertyInstance>
+          <elementDefinition Id="2e6086cd-368e-4afc-940d-767d522db0a6" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="dc919eee-c158-41ea-beb8-9cabf124d6a8">
+          <propertyInstance Id="0a069dc5-9262-45c8-953c-c1deb458e83f" name="ProjectPath" value="ClassTemplate=..\OfficeLib\OfficeLib.csproj|EnumTemplate=..\OfficeLib\OfficeLib.csproj|InterfaceTemplate=..\OfficeLib\OfficeLib.csproj|StructTemplate=..\OfficeLib\OfficeLib.csproj">
+            <elementDefinition Id="c1b4706f-59b9-4a76-a2be-3a73036229fa" />
+          </propertyInstance>
+          <elementDefinition Id="12269ab9-96e5-4109-ae36-b179651c2601" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="5c6fa74e-976f-42e9-976a-accd5c32e243">
+          <propertyInstance Id="d366d35b-7eb5-4f0e-b22f-e310b7977697" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="f5872753-40a9-4596-b26a-29bda9262039" />
+          </propertyInstance>
+          <elementDefinition Id="82a664c0-c92e-40a3-8ad7-3ff13f7c8784" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="ce584f0d-e13a-4b22-966c-3767abb9252f">
+          <propertyInstance Id="ee8f6d5e-6bae-45ec-84cf-9b053179741b" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="a53417a6-6328-4180-ad33-0e88979903f7" />
+          </propertyInstance>
+          <elementDefinition Id="5003a186-4ba0-4def-840a-a4c174399084" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="27f7b91e-f30f-4f59-970d-36a67fbea534">
+          <propertyInstance Id="b5edba86-a4c1-4e9d-8f24-0e7ba7bd1b01" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="42f3f9d4-850e-4f06-93e8-260dc4f0a4f2" />
+          </propertyInstance>
+          <elementDefinition Id="cf87f885-eff2-4895-9d7e-61e595dc7346" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="6d930be9-87b4-4b80-82b9-6b61f2973779">
+          <propertyInstance Id="506db56f-2a98-4308-b1b6-3ea00c19d611" name="Parameters">
+            <elementDefinition Id="d21b8ab8-aafe-406a-9e14-88b9de02640c" />
+          </propertyInstance>
+          <elementDefinition Id="a1536c03-448d-4ed7-b495-8aac1049d0fe" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="7fd447d8-7b27-45c1-9d71-9fcfa3bee184" name="Activity2" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="4e2ef84f-522a-4f75-9730-8de87007bd0f" />
+        <nodes>
+          <initialNode Id="46142506-12a1-4ceb-a590-97afe1540abc" name="Initial1" isLeaf="false">
+            <elementDefinition Id="b30faae9-bd0c-49d1-9d19-26c6c88f766f" />
+            <objectFlowTargets>
+              <objectFlow Id="bf19fc99-b65c-4909-8b3e-af0ce88c1761" isLeaf="false" isMulticast="false" isMultireceive="false">
+                <objectNodeMoniker Id="b85fbc1b-9306-4533-b6eb-bf3eba2bdcb5" LastKnownName="[Инициализация и получение данных]" />
+                <elementDefinition Id="4bfe8b46-9fd0-4cdd-9b41-d86cf885400d" />
+              </objectFlow>
+            </objectFlowTargets>
+          </initialNode>
+          <objectNode Id="b85fbc1b-9306-4533-b6eb-bf3eba2bdcb5" name="[Инициализация и получение данных]" isLeaf="false" ordering="Unordered" isControlType="false">
+            <elementDefinition Id="1fb8f8f0-3d7a-4812-a3a3-9e452f2b1bb9" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="cd493b96-3924-4cec-9531-79ff112854e0" LastKnownName="Lawyer" />
+            </type_NamedElement>
+            <objectFlowTargets>
+              <objectFlow Id="e54b505e-db58-42a7-966c-19fda398f048" isLeaf="false" isMulticast="false" isMultireceive="false">
+                <objectNodeMoniker Id="baf50867-a5ac-4324-8cef-46d61ecb516a" LastKnownName="[Инициализация и получение данных]" />
+                <elementDefinition Id="d6cc3a3f-c48a-4499-9dba-dad2a579deff" />
+              </objectFlow>
+            </objectFlowTargets>
+            <upperBound>
+              <literalInteger Id="aceec444-4215-4138-bbfc-d0fb51d9208f" name="2147483647" value="2147483647">
+                <elementDefinition Id="bc474b71-b36f-4935-94e0-630c4201353d" />
+              </literalInteger>
+            </upperBound>
+          </objectNode>
+          <callOperationAction Id="7788510d-f0e2-46d5-bb8a-a655c804de8b" name="Добавить  клиента в реестр" isLeaf="false">
+            <elementDefinition Id="f3c06758-bb06-44de-8af3-903c10f62398" />
+            <flowNodeTargets>
+              <controlFlow Id="509b4073-8bb8-421c-84f0-7ce1a8c2c8a7" isLeaf="false">
+                <mergeNodeMoniker Id="040c0d4b-184c-43c7-8eb3-ec7d31fe1953" LastKnownName="Merge1" />
+                <elementDefinition Id="ee804b60-2d2e-4d02-876e-c4a5bdf99233" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="77f9d11d-d21d-4f40-851b-501b6ed4a1f1" name="Добавить  документ в реестр" isLeaf="false">
+            <elementDefinition Id="66e12101-3317-4427-95dc-ed61f60c3064" />
+            <flowNodeTargets>
+              <controlFlow Id="e9fd47ef-c690-4bf1-aa6a-ea44537c29a2" isLeaf="false">
+                <mergeNodeMoniker Id="040c0d4b-184c-43c7-8eb3-ec7d31fe1953" LastKnownName="Merge1" />
+                <elementDefinition Id="9c85d379-dceb-4c67-8eae-baed467d27f6" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <opaqueAction Id="243c6546-0048-48e4-ab1b-9b7c3a0f7195" name="Предоставить выбор действия" isLeaf="false">
+            <elementDefinition Id="d7b30edd-d900-440b-8525-034106400873" />
+            <flowNodeTargets>
+              <controlFlow Id="1d5305bf-b827-4478-86cd-29ef1cb336a1" isLeaf="false">
+                <decisionNodeMoniker Id="9e51e854-85a8-468e-8038-e30e36e4e84d" LastKnownName="Decision1" />
+                <elementDefinition Id="c85dbd66-e3fb-4090-9bbb-8b85adadd0be" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <callOperationAction Id="4578bf67-cea0-4173-8678-9d593a2ab513" name="Изменить клиента в реестре" isLeaf="false">
+            <elementDefinition Id="ab018675-a559-43c6-8169-e3fe9c37e070" />
+            <flowNodeTargets>
+              <controlFlow Id="b6a5d3f7-2218-4090-bf97-726894028f55" isLeaf="false">
+                <mergeNodeMoniker Id="040c0d4b-184c-43c7-8eb3-ec7d31fe1953" LastKnownName="Merge1" />
+                <elementDefinition Id="572e845f-2cf4-44a2-a1a3-0189b8fc7e02" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="de9d791d-314f-4cfa-b7ee-3d26a8c649dc" name="Изменить документ в реестре" isLeaf="false">
+            <elementDefinition Id="7d3165e7-b505-4ad1-91d1-66cb97125be6" />
+            <flowNodeTargets>
+              <controlFlow Id="c888dc07-03a1-4872-97a4-1c4d43908d16" isLeaf="false">
+                <mergeNodeMoniker Id="040c0d4b-184c-43c7-8eb3-ec7d31fe1953" LastKnownName="Merge1" />
+                <elementDefinition Id="c1d4f486-abb5-42ba-b213-0e4fa30a33f6" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="45a29283-67ba-4118-a392-262073c41608" name="Просмотр расписания" isLeaf="false">
+            <elementDefinition Id="ac274748-4ea7-4d23-886f-d06339fd0292" />
+          </callOperationAction>
+          <callOperationAction Id="6c211999-3a66-4e5f-80d4-37f60ca72bea" name="Поиск задач в расписании" isLeaf="false">
+            <elementDefinition Id="5558de3b-6f63-4129-9fbb-75abd646d52c" />
+          </callOperationAction>
+          <callOperationAction Id="72b7725f-e018-44e6-a283-b2ee715ca268" name="Удалить клиента из реестра" isLeaf="false">
+            <elementDefinition Id="f27c1da2-1daf-4a21-9976-5ca3edca8ce7" />
+            <flowNodeTargets>
+              <controlFlow Id="647cc1b0-6780-4849-9acf-4540dea4a9fa" isLeaf="false">
+                <mergeNodeMoniker Id="040c0d4b-184c-43c7-8eb3-ec7d31fe1953" LastKnownName="Merge1" />
+                <elementDefinition Id="d78ca3ef-362f-4c98-9d16-9d7f5bd759dc" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="2b7a2d6f-bf7b-42e3-b21f-baad64b40795" name="Удалить документ из реестра" isLeaf="false">
+            <elementDefinition Id="d248b273-04cf-41e2-a1a4-edc42d696121" />
+            <flowNodeTargets>
+              <controlFlow Id="7df2d9f3-b8c3-4920-823d-2179570f6968" isLeaf="false">
+                <mergeNodeMoniker Id="040c0d4b-184c-43c7-8eb3-ec7d31fe1953" LastKnownName="Merge1" />
+                <elementDefinition Id="c7a9bdfa-4117-4ef5-bd44-a981dd9eb1f2" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="b504e957-8570-40ce-ae56-59e36f303627" name="Просмотр списка клиентов в реестре" isLeaf="false">
+            <elementDefinition Id="7516a87f-9386-4cae-bf8a-edb5b870da46" />
+            <flowNodeTargets>
+              <controlFlow Id="ec0a8671-5a09-4a9e-999b-693723ec5356" isLeaf="false">
+                <mergeNodeMoniker Id="040c0d4b-184c-43c7-8eb3-ec7d31fe1953" LastKnownName="Merge1" />
+                <elementDefinition Id="de896c68-723c-4198-8226-a39c1cd2a399" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="b492a9ea-1187-430a-a2f6-6a072c92ada0" name="Просмотр списка документов в реестре" isLeaf="false">
+            <elementDefinition Id="c12962d3-ac8a-4685-b033-b3ecabce38b3" />
+            <flowNodeTargets>
+              <controlFlow Id="109f98fa-edb5-456c-a435-e12445fa7466" isLeaf="false">
+                <mergeNodeMoniker Id="040c0d4b-184c-43c7-8eb3-ec7d31fe1953" LastKnownName="Merge1" />
+                <elementDefinition Id="4088a06d-b50c-4275-a4d5-4a33e5c7fd9a" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="b0828803-d177-46a6-9b36-2cf0700971bd" name="Поиск клиентов в реестре" isLeaf="false">
+            <elementDefinition Id="20e14e2c-f200-46d9-a77a-32e82484dd00" />
+            <flowNodeTargets>
+              <controlFlow Id="c7c66d7f-ea94-4151-bbd7-9a920e6bf1bc" isLeaf="false">
+                <mergeNodeMoniker Id="040c0d4b-184c-43c7-8eb3-ec7d31fe1953" LastKnownName="Merge1" />
+                <elementDefinition Id="f91564ea-7eec-48f8-a48c-d046d16582c0" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="ad90f244-0698-4c09-9096-bba7e31a1255" name="Поиск документов в реестре" isLeaf="false">
+            <elementDefinition Id="35eebb28-5c54-4a5b-9667-76dfad0daf4d" />
+            <flowNodeTargets>
+              <controlFlow Id="5c55b21b-6c3a-4d7b-891e-1fc4863c2b38" isLeaf="false">
+                <mergeNodeMoniker Id="040c0d4b-184c-43c7-8eb3-ec7d31fe1953" LastKnownName="Merge1" />
+                <elementDefinition Id="88da3cf8-ab82-4f79-a233-c1df338acb44" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="7eb4b65d-d073-4f7e-a52d-69d131d3a475" name="Считывание реестра" isLeaf="false">
+            <elementDefinition Id="799bfe98-b353-46e8-845e-4175b8a309c0" />
+            <objectFlowTargets>
+              <objectFlow Id="96370f5e-2a52-4f00-937b-518ca89d4c9f" isLeaf="false" isMulticast="false" isMultireceive="false">
+                <objectNodeMoniker Id="5a669c74-a40a-48cf-bcbf-c16c3c5e071b" LastKnownName="[Чтение и запись]" />
+                <elementDefinition Id="c3bf5895-d323-40c4-b6b5-357852218870" />
+              </objectFlow>
+            </objectFlowTargets>
+          </callOperationAction>
+          <callOperationAction Id="27abe93c-5d5c-4c05-b280-2864f2731934" name="Считывание расписания" isLeaf="false">
+            <elementDefinition Id="d9ad2fbc-0d26-4b50-83a1-d05289979937" />
+            <objectFlowTargets>
+              <objectFlow Id="287a7ca8-001d-4322-b63a-89283e004f5e" isLeaf="false" isMulticast="false" isMultireceive="false">
+                <objectNodeMoniker Id="eaa9972f-c92f-46ca-b472-b4e450d9b0c7" LastKnownName="[Чтения]" />
+                <elementDefinition Id="a40b294a-70ec-4e6c-9674-68628d33cfcc" />
+              </objectFlow>
+            </objectFlowTargets>
+          </callOperationAction>
+          <objectNode Id="eaa9972f-c92f-46ca-b472-b4e450d9b0c7" name="[Чтения]" isLeaf="false" ordering="Unordered" isControlType="false">
+            <elementDefinition Id="3e16611c-18bb-4d3b-818f-54a123e5a93e" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="51978e7d-af2c-4d7e-be5e-a8070f9efb88" LastKnownName="Schedule" />
+            </type_NamedElement>
+            <objectFlowTargets>
+              <objectFlow Id="83e018b8-a6f1-4a17-a723-60dfe8e0a5da" isLeaf="false" isMulticast="false" isMultireceive="false">
+                <objectNodeMoniker Id="a396e944-73f1-41e3-9757-0ed6d1028b6a" LastKnownName="[Инициализация и получение данных]" />
+                <elementDefinition Id="e3299dc5-009f-4fa3-b1da-f8e993912615" />
+              </objectFlow>
+            </objectFlowTargets>
+            <upperBound>
+              <literalInteger Id="178ea174-7863-488a-ac28-3a2feb395c04" name="2147483647" value="2147483647">
+                <elementDefinition Id="8e339095-68bd-4639-b956-4b8d1bc7d46a" />
+              </literalInteger>
+            </upperBound>
+          </objectNode>
+          <objectNode Id="5a669c74-a40a-48cf-bcbf-c16c3c5e071b" name="[Чтение и запись]" isLeaf="false" ordering="Unordered" isControlType="false">
+            <elementDefinition Id="242fcd05-974b-41f5-8237-bcdc7a288c70" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="e35b7731-15ac-4d01-ad14-c1d703e5127d" LastKnownName="Register" />
+            </type_NamedElement>
+            <objectFlowTargets>
+              <objectFlow Id="3b363d7e-511b-4e70-9dc3-196467186285" isLeaf="false" isMulticast="false" isMultireceive="false">
+                <objectNodeMoniker Id="fdf87b86-c7e2-4d04-806d-b027002c8545" LastKnownName="[Чтение и запись]" />
+                <elementDefinition Id="527699ee-8085-4e59-ad63-bf0bad07ee5c" />
+              </objectFlow>
+            </objectFlowTargets>
+            <upperBound>
+              <literalInteger Id="6ff9f089-8b29-4b7b-8045-4a8447bf91db" name="2147483647" value="2147483647">
+                <elementDefinition Id="f8d95797-c30e-4262-afe0-855e8103fd71" />
+              </literalInteger>
+            </upperBound>
+          </objectNode>
+          <activityFinalNode Id="b37adf9b-bda2-4558-bd8f-17b2b8c90fdf" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="96204dd8-6b40-488c-866c-a6f86878a472" />
+          </activityFinalNode>
+          <callOperationAction Id="e47a7d9a-6667-470a-b3f8-63852687010d" name="Запись реестра" isLeaf="false">
+            <elementDefinition Id="dc9fbdf9-d0ab-4c8e-9881-888fdea8f5c2" />
+            <flowNodeTargets>
+              <controlFlow Id="463ffa0d-afe0-40ef-8399-2a895324ab8b" isLeaf="false">
+                <activityFinalNodeMoniker Id="b37adf9b-bda2-4558-bd8f-17b2b8c90fdf" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="0e986612-7e23-4932-99d5-737ebfb631ee" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <decisionNode Id="9e51e854-85a8-468e-8038-e30e36e4e84d" name="Decision1" isLeaf="false">
+            <elementDefinition Id="5d7a87f5-0f2f-4df9-b05d-8bd9e9ae6017" />
+            <flowNodeTargets>
+              <controlFlow Id="0b462ab0-ff02-4320-b980-a9e9496ffbcc" guard="Выбор=просмотр расписания" name="Переход к просмотру" isLeaf="false">
+                <callOperationActionMoniker Id="45a29283-67ba-4118-a392-262073c41608" LastKnownName="Просмотр расписания" />
+                <description>Переход к просмотру</description>
+                <elementDefinition Id="5119831d-ed71-4d15-b513-29837c9a9b61" />
+              </controlFlow>
+              <controlFlow Id="552ba7fb-38c6-4cb8-a0d4-56b9e2d7bb16" guard="Выбор=поиск задач в расписании" isLeaf="false">
+                <callOperationActionMoniker Id="6c211999-3a66-4e5f-80d4-37f60ca72bea" LastKnownName="Поиск задач в расписании" />
+                <elementDefinition Id="f6c5bba1-543f-453b-a0b9-70a48abdd0f7" />
+              </controlFlow>
+              <controlFlow Id="f6b4f720-a0f4-47c8-9855-91ec7ffe1624" guard="Выбор=Добавить документ" isLeaf="false">
+                <callOperationActionMoniker Id="77f9d11d-d21d-4f40-851b-501b6ed4a1f1" LastKnownName="Добавить  документ в реестр" />
+                <elementDefinition Id="97465924-e487-43ad-93a2-2d6b768df1a1" />
+              </controlFlow>
+              <controlFlow Id="bc0cec69-622d-45dc-93f8-f0be2174c69c" guard="Выбор=добавить клиента" isLeaf="false">
+                <callOperationActionMoniker Id="7788510d-f0e2-46d5-bb8a-a655c804de8b" LastKnownName="Добавить  клиента в реестр" />
+                <elementDefinition Id="359d8c64-12fe-424f-942e-729891986f5b" />
+              </controlFlow>
+              <controlFlow Id="044270c3-becf-432f-9130-7d294a3a8f80" guard="Выбор=изменить клиента" isLeaf="false">
+                <callOperationActionMoniker Id="4578bf67-cea0-4173-8678-9d593a2ab513" LastKnownName="Изменить клиента в реестре" />
+                <elementDefinition Id="bb6c175e-2e3a-46c2-a912-c298307e202b" />
+              </controlFlow>
+              <controlFlow Id="cb6da80b-abfa-46a0-9446-1a979c9f6e86" guard="Выбор=изменить документ" isLeaf="false">
+                <callOperationActionMoniker Id="de9d791d-314f-4cfa-b7ee-3d26a8c649dc" LastKnownName="Изменить документ в реестре" />
+                <elementDefinition Id="cf42f2a2-4280-433d-9052-11fb1f043d77" />
+              </controlFlow>
+              <controlFlow Id="50744ade-fdae-4945-a232-dacfcd59c5ac" guard="Выбор=удалить документ" isLeaf="false">
+                <callOperationActionMoniker Id="2b7a2d6f-bf7b-42e3-b21f-baad64b40795" LastKnownName="Удалить документ из реестра" />
+                <elementDefinition Id="cd9da274-0447-4786-b234-91e01f27664a" />
+              </controlFlow>
+              <controlFlow Id="eb2c8397-1b7f-4a04-8812-f160e1263c7a" guard="Выбор=удалить клиента" isLeaf="false">
+                <callOperationActionMoniker Id="72b7725f-e018-44e6-a283-b2ee715ca268" LastKnownName="Удалить клиента из реестра" />
+                <elementDefinition Id="e4e6fb3c-ff37-40d8-8769-34b81ab3cf5f" />
+              </controlFlow>
+              <controlFlow Id="a46b723f-7ce6-444a-b177-5c5bb36bdc52" guard="Выбор=поиск документов" isLeaf="false">
+                <callOperationActionMoniker Id="ad90f244-0698-4c09-9096-bba7e31a1255" LastKnownName="Поиск документов в реестре" />
+                <elementDefinition Id="e1c0a527-b609-439b-9921-e64899bc7f8d" />
+              </controlFlow>
+              <controlFlow Id="5e788018-4e38-4709-ad18-fd6356391b29" guard="Выбор=поиск клиентов" isLeaf="false">
+                <callOperationActionMoniker Id="b0828803-d177-46a6-9b36-2cf0700971bd" LastKnownName="Поиск клиентов в реестре" />
+                <elementDefinition Id="2a6d17ce-0fa0-4764-88d4-774a13f302d4" />
+              </controlFlow>
+              <controlFlow Id="9c321749-6d8e-4f0a-aeea-e3d9dc9d5ff6" guard="Выбор=просмотр документов" isLeaf="false">
+                <callOperationActionMoniker Id="b492a9ea-1187-430a-a2f6-6a072c92ada0" LastKnownName="Просмотр списка документов в реестре" />
+                <elementDefinition Id="91916c3e-ed4e-4eae-9c9a-bd7353907a5c" />
+              </controlFlow>
+              <controlFlow Id="c94b0470-2c00-45ed-a654-73be1deeaaf9" guard="Выбор=просмотр списка клиентов" isLeaf="false">
+                <callOperationActionMoniker Id="b504e957-8570-40ce-ae56-59e36f303627" LastKnownName="Просмотр списка клиентов в реестре" />
+                <elementDefinition Id="8f41e484-7ca2-410b-b9f1-7fb700f9f87a" />
+              </controlFlow>
+            </flowNodeTargets>
+            <objectFlowTargets>
+              <objectFlow Id="b2209591-2907-4543-88d3-82767d19f0c0" guard="Выбор=выход" isLeaf="false" isMulticast="false" isMultireceive="false">
+                <objectNodeMoniker Id="931be4cf-911d-4b2b-bb05-8775018c10e0" LastKnownName="[Завершение]" />
+                <elementDefinition Id="da7ed52b-2ef1-436d-818a-ee70413770d2" />
+              </objectFlow>
+            </objectFlowTargets>
+          </decisionNode>
+          <mergeNode Id="040c0d4b-184c-43c7-8eb3-ec7d31fe1953" name="Merge1" isLeaf="false">
+            <elementDefinition Id="bf947f46-08a5-4783-8c24-04419f27b77b" />
+            <flowNodeTargets>
+              <controlFlow Id="ae5fd76f-eb8e-4099-8556-20354c28dfca" guard="Обратно к выбору действия " isLeaf="false">
+                <opaqueActionMoniker Id="243c6546-0048-48e4-ab1b-9b7c3a0f7195" LastKnownName="Предоставить выбор действия" />
+                <elementDefinition Id="0ae93a09-82b2-4ef2-b121-00184739651b" />
+              </controlFlow>
+            </flowNodeTargets>
+          </mergeNode>
+          <objectNode Id="baf50867-a5ac-4324-8cef-46d61ecb516a" name="[Инициализация и получение данных]" isLeaf="false" ordering="Unordered" isControlType="false">
+            <elementDefinition Id="76830a76-e5bb-4bd9-b0f9-ff13b8f490e8" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="eed93221-9f7d-4f50-a9e2-065a0c61935b" LastKnownName="Schedule" />
+            </type_NamedElement>
+            <objectFlowTargets>
+              <objectFlow Id="2fdd228f-2bc8-4df7-85a3-51a3ef5c9801" isLeaf="false" isMulticast="false" isMultireceive="false">
+                <callOperationActionMoniker Id="27abe93c-5d5c-4c05-b280-2864f2731934" LastKnownName="Считывание расписания" />
+                <elementDefinition Id="80e91b8a-8151-43e2-8ee3-0809fbf9df6b" />
+              </objectFlow>
+            </objectFlowTargets>
+            <upperBound>
+              <literalInteger Id="0c3e3d7c-d5f3-4f08-84b5-00452c2c00f7" name="2147483647" value="2147483647">
+                <elementDefinition Id="a9f1fa4a-2513-4e1c-8a66-f0717d382539" />
+              </literalInteger>
+            </upperBound>
+          </objectNode>
+          <objectNode Id="a396e944-73f1-41e3-9757-0ed6d1028b6a" name="[Инициализация и получение данных]" isLeaf="false" ordering="Unordered" isControlType="false">
+            <elementDefinition Id="45e80430-3d0a-483b-929c-765db94e556a" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="0854e7d8-4309-4d30-9dad-21e316450b01" LastKnownName="Register" />
+            </type_NamedElement>
+            <objectFlowTargets>
+              <objectFlow Id="2c1fec10-8308-40ff-94fa-9d90ab63183b" isLeaf="false" isMulticast="false" isMultireceive="false">
+                <callOperationActionMoniker Id="7eb4b65d-d073-4f7e-a52d-69d131d3a475" LastKnownName="Считывание реестра" />
+                <elementDefinition Id="4344d3cc-dd09-4d11-9b19-8d92c66f4674" />
+              </objectFlow>
+            </objectFlowTargets>
+            <upperBound>
+              <literalInteger Id="86e43601-43d5-4b2a-8519-30929498aa2d" name="2147483647" value="2147483647">
+                <elementDefinition Id="4ba75dc4-4119-4488-972f-e5eaa6ff6cc8" />
+              </literalInteger>
+            </upperBound>
+          </objectNode>
+          <objectNode Id="fdf87b86-c7e2-4d04-806d-b027002c8545" name="[Чтение и запись]" isLeaf="false" ordering="Unordered" isControlType="false">
+            <elementDefinition Id="7e1089dd-c2da-4855-a625-e2fed514c3d2" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="311e9982-b9cc-42bf-9876-2100460ad651" LastKnownName="Lawyer" />
+            </type_NamedElement>
+            <objectFlowTargets>
+              <objectFlow Id="bbb7482a-ccde-4a28-b3d1-1a91eea1c232" isLeaf="false" isMulticast="false" isMultireceive="false">
+                <opaqueActionMoniker Id="243c6546-0048-48e4-ab1b-9b7c3a0f7195" LastKnownName="Предоставить выбор действия" />
+                <elementDefinition Id="384121a4-bd60-4cf6-bd52-278bb055e58c" />
+              </objectFlow>
+            </objectFlowTargets>
+            <upperBound>
+              <literalInteger Id="186317b3-619a-4f09-90ef-1a421ef49f60" name="2147483647" value="2147483647">
+                <elementDefinition Id="05d3ecc2-7be0-4443-b786-9b28d5c95d17" />
+              </literalInteger>
+            </upperBound>
+          </objectNode>
+          <objectNode Id="a77d3632-5876-4546-80cd-d0b1430b1ed2" name="[Завершение]" isLeaf="false" ordering="Unordered" isControlType="false">
+            <elementDefinition Id="15b99c19-9e27-4403-b019-17e233e6bf1a" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="ee52ee22-d73a-41c9-af3e-1e6bfe9f81a4" LastKnownName="Register" />
+            </type_NamedElement>
+            <objectFlowTargets>
+              <objectFlow Id="20df5465-9fba-4c5d-86d6-0c80fb2cbf4f" isLeaf="false" isMulticast="false" isMultireceive="false">
+                <callOperationActionMoniker Id="e47a7d9a-6667-470a-b3f8-63852687010d" LastKnownName="Запись реестра" />
+                <elementDefinition Id="e5337fd1-3c24-49c5-b9ca-13dcbdf7f943" />
+              </objectFlow>
+            </objectFlowTargets>
+            <upperBound>
+              <literalInteger Id="fbc3eef5-0baa-4b82-b61e-dd7c62983e34" name="2147483647" value="2147483647">
+                <elementDefinition Id="342990bc-973d-4da2-909c-6e0dbd8d4c0f" />
+              </literalInteger>
+            </upperBound>
+          </objectNode>
+          <objectNode Id="00752e04-3a43-4cf0-9db3-2bf4957691d1" name="[Завершение]" isLeaf="false" ordering="Unordered" isControlType="false">
+            <elementDefinition Id="a01c141e-a11e-48e1-a73c-7fcf6dd2b63b" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="17006afb-9f81-4743-b0e9-b241741bbd04" LastKnownName="Schedule" />
+            </type_NamedElement>
+            <objectFlowTargets>
+              <objectFlow Id="db6a507d-5f68-4313-99a1-c3ebfedacb2f" isLeaf="false" isMulticast="false" isMultireceive="false">
+                <objectNodeMoniker Id="a77d3632-5876-4546-80cd-d0b1430b1ed2" LastKnownName="[Завершение]" />
+                <elementDefinition Id="a9cb47e5-8d16-4b2c-8743-075793a9a94f" />
+              </objectFlow>
+            </objectFlowTargets>
+            <upperBound>
+              <literalInteger Id="540e083b-be5b-4f6b-936b-e733d4c628b3" name="2147483647" value="2147483647">
+                <elementDefinition Id="5816f4b4-425e-47e3-a35c-23f618412184" />
+              </literalInteger>
+            </upperBound>
+          </objectNode>
+          <objectNode Id="931be4cf-911d-4b2b-bb05-8775018c10e0" name="[Завершение]" isLeaf="false" ordering="Unordered" isControlType="false">
+            <elementDefinition Id="313b00da-e822-42a7-a2cf-10d42763eea3" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="471ef000-0b29-4149-a13f-af5c3cbda0bf" LastKnownName="Lawyer" />
+            </type_NamedElement>
+            <objectFlowTargets>
+              <objectFlow Id="5f5645c1-aa69-4ba7-9fd1-ce74c8d82b7b" isLeaf="false" isMulticast="false" isMultireceive="false">
+                <objectNodeMoniker Id="00752e04-3a43-4cf0-9db3-2bf4957691d1" LastKnownName="[Завершение]" />
+                <elementDefinition Id="41ba672a-e461-4b5f-af12-0a82d2d88063" />
+              </objectFlow>
+            </objectFlowTargets>
+            <upperBound>
+              <literalInteger Id="84ad4b7d-8b66-4b3c-8eec-638233b1e300" name="2147483647" value="2147483647">
+                <elementDefinition Id="051b466b-e34d-4aae-b482-6ed0dece836c" />
+              </literalInteger>
+            </upperBound>
+          </objectNode>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+    <packageHasNamedElement>
+      <referencedType Id="dbbedab5-032b-436c-b228-9744ec0f7a37" name="Person" isAbstract="false" isLeaf="false" cachedFullName="Office::Person">
+        <elementDefinition Id="574e88f1-3886-4ff0-afbb-97c64ac356bf" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="cd493b96-3924-4cec-9531-79ff112854e0" name="Lawyer" isAbstract="false" isLeaf="false" cachedFullName="Office::Lawyer">
+        <elementDefinition Id="e89cd32e-8800-40f8-800a-a5255615b0d4" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="e381d545-d472-4041-9c49-448ea824f667" name="Register" isAbstract="false" isLeaf="false" cachedFullName="Office::Register">
+        <elementDefinition Id="08dc27de-328a-48a2-9357-497594d00112" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="9f8a944f-bf22-418e-b253-308d14d8ff85" name="Schedule" isAbstract="false" isLeaf="false" cachedFullName="Office::Schedule">
+        <elementDefinition Id="f663dbd0-c45b-42bd-bcbd-1e566f73a689" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="311f2cae-78e9-4dca-bfdb-7572f38f8033" name="Register" isAbstract="false" isLeaf="false" cachedFullName="Office::Register">
+        <elementDefinition Id="08dc27de-328a-48a2-9357-497594d00112" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="51978e7d-af2c-4d7e-be5e-a8070f9efb88" name="Schedule" isAbstract="false" isLeaf="false" cachedFullName="Office::Schedule">
+        <elementDefinition Id="f663dbd0-c45b-42bd-bcbd-1e566f73a689" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="e35b7731-15ac-4d01-ad14-c1d703e5127d" name="Register" isAbstract="false" isLeaf="false" cachedFullName="Office::Register">
+        <elementDefinition Id="08dc27de-328a-48a2-9357-497594d00112" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="e2c3a0c3-fd79-46c1-af69-c8e4b8515f99" name="Register" isAbstract="false" isLeaf="false" cachedFullName="Office::Register">
+        <elementDefinition Id="08dc27de-328a-48a2-9357-497594d00112" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="511e764d-db2e-42ab-b404-38b92b072670" name="Lawyer" isAbstract="false" isLeaf="false" cachedFullName="Office::Lawyer">
+        <elementDefinition Id="e89cd32e-8800-40f8-800a-a5255615b0d4" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="eed93221-9f7d-4f50-a9e2-065a0c61935b" name="Schedule" isAbstract="false" isLeaf="false" cachedFullName="Office::Schedule">
+        <elementDefinition Id="f663dbd0-c45b-42bd-bcbd-1e566f73a689" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="4ad6f666-7080-44f8-8f9d-fb02133e291a" name="Lawyer" isAbstract="false" isLeaf="false" cachedFullName="Office::Lawyer">
+        <elementDefinition Id="e89cd32e-8800-40f8-800a-a5255615b0d4" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="0854e7d8-4309-4d30-9dad-21e316450b01" name="Register" isAbstract="false" isLeaf="false" cachedFullName="Office::Register">
+        <elementDefinition Id="08dc27de-328a-48a2-9357-497594d00112" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="e43ed171-7200-4f75-9972-f85f5e3689c0" name="Register" isAbstract="false" isLeaf="false" cachedFullName="Office::Register">
+        <elementDefinition Id="08dc27de-328a-48a2-9357-497594d00112" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="311e9982-b9cc-42bf-9876-2100460ad651" name="Lawyer" isAbstract="false" isLeaf="false" cachedFullName="Office::Lawyer">
+        <elementDefinition Id="e89cd32e-8800-40f8-800a-a5255615b0d4" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="ee52ee22-d73a-41c9-af3e-1e6bfe9f81a4" name="Register" isAbstract="false" isLeaf="false" cachedFullName="Office::Register">
+        <elementDefinition Id="08dc27de-328a-48a2-9357-497594d00112" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="17006afb-9f81-4743-b0e9-b241741bbd04" name="Schedule" isAbstract="false" isLeaf="false" cachedFullName="Office::Schedule">
+        <elementDefinition Id="f663dbd0-c45b-42bd-bcbd-1e566f73a689" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="471ef000-0b29-4149-a13f-af5c3cbda0bf" name="Lawyer" isAbstract="false" isLeaf="false" cachedFullName="Office::Lawyer">
+        <elementDefinition Id="e89cd32e-8800-40f8-800a-a5255615b0d4" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="d52b919f-c5fe-469e-9b1a-cddd95a02d49" name="Office">
+    <elementDefinition Id="e6fc01d3-1355-4f2e-98ae-d4494043342b" />
+    <profileInstances>
+      <packageHasProfileInstances Id="21236c77-6e62-4407-bb11-e66b1107c2e9">
+        <profileInstance Id="590062e6-948c-4801-86e5-11d2ca36402a" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="ea7cd8be-9695-41bb-a17f-0e0ff1340b31">
+        <profileInstance Id="6668fe43-062d-4be4-bb35-c99e06f61da8" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="29a06e7c-51f7-4b0b-92bd-bc71b8287428">
+        <profileInstance Id="ac665df4-cebb-48fe-8e47-68a7f4095ddc" name="CSharpProfile">
+          <elementDefinition Id="64a30c3b-4375-4f05-a7ac-5a1bb253737c" />
+        </profileInstance>
+        <elementDefinition Id="18188c9d-f955-4218-a5f2-688f29517754" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="c3bca6ee-6c0b-447b-a407-3531c1fe7698">
+        <profileInstance Id="f2da2ebe-c8fa-4f03-9d01-c3730d3a082d" name="TextTemplateBindings">
+          <elementDefinition Id="f5d92cc1-878e-4f70-8388-952564e385ce" />
+        </profileInstance>
+        <elementDefinition Id="aba17536-b07b-48a7-b939-de54ab50ad20" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</activityRootModel>

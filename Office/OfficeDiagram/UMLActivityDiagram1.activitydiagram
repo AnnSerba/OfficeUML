@@ -1,0 +1,793 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="bf7bc2ab-2367-4bf1-81e5-51a414564c76" name="Activity1" linkedPackageId="e3cae20a-1d5d-44d0-845b-2ce2a753921b" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="1ec17d01-96a9-4767-9871-a051896a4691" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="3ecf8201-4fbd-45e8-be6f-86830bad9dc8" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="5eb7ffe7-3851-49fb-8ba5-6ceafabd80b6">
+          <propertyInstance Id="95f69662-5022-4a19-8dde-8c97d2fde162" name="BaseName">
+            <elementDefinition Id="f8f39fbb-059f-483b-aecd-7212615c2c3e" />
+          </propertyInstance>
+          <elementDefinition Id="672aedbf-18f7-42fb-a211-bf092ccd2e39" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="34509afe-7c5a-4ccf-b24b-7d6b8d766cf8">
+          <propertyInstance Id="a41941da-5343-45a0-a2be-25ec9a9b07dd" name="ClrAttributes">
+            <elementDefinition Id="fc418b92-6851-4332-ab55-3d2e2a2b71b6" />
+          </propertyInstance>
+          <elementDefinition Id="514a1de6-d73d-4b01-8126-1df3880fe3c6" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="310efbd9-15ce-4397-a62b-c8673308015e">
+          <propertyInstance Id="3067bc5b-a5d6-41a0-9b72-b9c77031f20e" name="Usings">
+            <elementDefinition Id="1ebae119-565b-4dc3-a9aa-584b8d696c61" />
+          </propertyInstance>
+          <elementDefinition Id="f57c6243-0a63-44e5-a2cb-3b21e069389f" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="6a65764c-de73-4950-bf4e-ca299994018d" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="e3752f1d-a6f6-4a7e-b20f-12296f9bc57b" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="e27595a7-7f13-4948-b4ba-3aff689b5349">
+          <propertyInstance Id="e9ca42f6-a27b-4c01-bc26-a8693eaac21a" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="df57099e-c9d9-47a5-823d-f9164b929dcc" />
+          </propertyInstance>
+          <elementDefinition Id="5372f781-ecf3-48b8-a0da-751b6d6e9287" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="b572d0d3-09ed-45ae-a7cd-7927bc6f7c8e">
+          <propertyInstance Id="f85390bf-c376-4602-8732-53e3f075f852" name="TemplateFilePath" value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="f9d6f646-a7de-4e96-9bde-6b35304848cb" />
+          </propertyInstance>
+          <elementDefinition Id="2e6086cd-368e-4afc-940d-767d522db0a6" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="203b8262-a2fd-45aa-9945-519d74c74bf9">
+          <propertyInstance Id="75e5c474-dae7-4da6-be5a-80b74f82e374" name="ProjectPath" value="ClassTemplate=..\OfficeLib\OfficeLib.csproj|EnumTemplate=..\OfficeLib\OfficeLib.csproj|InterfaceTemplate=..\OfficeLib\OfficeLib.csproj|StructTemplate=..\OfficeLib\OfficeLib.csproj">
+            <elementDefinition Id="c1b4706f-59b9-4a76-a2be-3a73036229fa" />
+          </propertyInstance>
+          <elementDefinition Id="12269ab9-96e5-4109-ae36-b179651c2601" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="7e1faa9e-9859-4d0c-a06e-333648b7c7e1">
+          <propertyInstance Id="ebb3d5b7-e0b4-4653-a5eb-42673af61f0b" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="f5872753-40a9-4596-b26a-29bda9262039" />
+          </propertyInstance>
+          <elementDefinition Id="82a664c0-c92e-40a3-8ad7-3ff13f7c8784" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="65055f98-d476-415a-ba83-601b336080d7">
+          <propertyInstance Id="bef7b4de-1e5d-483a-8581-b3deaf01425b" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="a53417a6-6328-4180-ad33-0e88979903f7" />
+          </propertyInstance>
+          <elementDefinition Id="5003a186-4ba0-4def-840a-a4c174399084" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="1fa41575-a2f9-4728-8092-ac5ed8c17aa6">
+          <propertyInstance Id="b393f79a-d1a6-4310-92d5-f0d9e1518fe3" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="42f3f9d4-850e-4f06-93e8-260dc4f0a4f2" />
+          </propertyInstance>
+          <elementDefinition Id="cf87f885-eff2-4895-9d7e-61e595dc7346" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="6c26027d-1ed1-4de3-8131-4efcc4945cfc">
+          <propertyInstance Id="64a500e0-7987-4b08-a69e-fb4dbffd51cf" name="Parameters">
+            <elementDefinition Id="d21b8ab8-aafe-406a-9e14-88b9de02640c" />
+          </propertyInstance>
+          <elementDefinition Id="a1536c03-448d-4ed7-b495-8aac1049d0fe" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="6c68111b-e65f-4c65-8f8d-c822576cd8b1" name="Activity1" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="c758c45e-35b6-4fbb-9cb0-bca2dc8da109" />
+        <nodes>
+          <callOperationAction Id="552f96e8-2698-4207-9a42-8116e2096585" name="Добавить  клиента в реестр" isLeaf="false">
+            <elementDefinition Id="d0be87da-1750-4f82-8352-de13360a6804" />
+            <flowNodeTargets>
+              <controlFlow Id="5505ad46-5311-43c6-b481-16c0c50ff87a" isLeaf="false">
+                <opaqueActionMoniker Id="0fb54805-6a71-4d20-9005-8b1f9c545468" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="298defe4-d5b7-4921-baf4-81ef4cb75661" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="2cb6b42e-77db-41bc-999e-a9dcd9281714" name="Изменить клиента в реестре" isLeaf="false">
+            <elementDefinition Id="3e185de9-761a-4194-8ec3-c09361ad334c" />
+            <flowNodeTargets>
+              <controlFlow Id="5fb52b3e-9072-4f9d-807e-02d0929358cb" isLeaf="false">
+                <opaqueActionMoniker Id="0fb54805-6a71-4d20-9005-8b1f9c545468" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="1b231751-e190-4988-ac14-0a44d390c3bb" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="13b854f5-4b1f-41b5-a64f-0a8a8ea10306" name="Удалить клиента из реестра" isLeaf="false">
+            <elementDefinition Id="3965d4d3-49be-4c17-aac9-4d2b2b9fd74d" />
+            <flowNodeTargets>
+              <controlFlow Id="8b002d23-0603-4007-a297-d4b5733afa5a" isLeaf="false">
+                <opaqueActionMoniker Id="0fb54805-6a71-4d20-9005-8b1f9c545468" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="e2c6abc3-4529-465e-b05f-0a9e79661fc4" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="506bc5ca-c56b-4e44-aa45-8d8edaf74e31" name="Просмотр списка клиентов в реестре" isLeaf="false">
+            <elementDefinition Id="6f489b50-91cb-4c78-89b6-6051eca00558" />
+            <flowNodeTargets>
+              <controlFlow Id="e37e02da-010d-4df9-9642-9f0506f1ac14" isLeaf="false">
+                <opaqueActionMoniker Id="0fb54805-6a71-4d20-9005-8b1f9c545468" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="a49b6cb0-998b-4afb-a4de-a11690fc8dd9" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="eff92e7c-f13a-43f6-bf85-290308b6af9d" name="Поиск клиентов в реестре" isLeaf="false">
+            <elementDefinition Id="4df49c9d-4f6f-4218-b654-7fff007f93ea" />
+            <flowNodeTargets>
+              <controlFlow Id="7e046a5e-29aa-45e3-b6a6-b038f1b5155f" isLeaf="false">
+                <opaqueActionMoniker Id="0fb54805-6a71-4d20-9005-8b1f9c545468" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="8a6cacd0-87a0-4d70-b40c-22a40eb07c2e" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="93611ee0-7347-4315-b0a3-6169e1b65012" name="Добавить  документ в реестр" isLeaf="false">
+            <elementDefinition Id="3f08abe8-00eb-470e-83ae-90b156bc5fb9" />
+            <flowNodeTargets>
+              <controlFlow Id="77535ebb-d24d-45ad-b987-f5445532d22f" isLeaf="false">
+                <opaqueActionMoniker Id="0fb54805-6a71-4d20-9005-8b1f9c545468" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="aae0ba28-51e8-442f-af54-043300c2a874" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="6b9d7539-96f7-41e4-9e48-d22e4be07a0e" name="Изменить документ в реестре" isLeaf="false">
+            <elementDefinition Id="db09dad4-72a6-4fe6-85db-5222675e8e68" />
+            <flowNodeTargets>
+              <controlFlow Id="e3709a41-4ba0-487f-ad90-5aa95b6b2fe7" isLeaf="false">
+                <opaqueActionMoniker Id="0fb54805-6a71-4d20-9005-8b1f9c545468" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="fc21c06e-bcc7-40fe-8bf7-0deab2954905" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="7e3bf14c-afb0-4ccc-9d19-cc50363e47b2" name="Удалить документ из реестра" isLeaf="false">
+            <elementDefinition Id="83260f82-5316-4e09-be4a-c11bb4c46b0f" />
+            <flowNodeTargets>
+              <controlFlow Id="30c8ff2f-b5f3-4581-b154-99ac97d45406" isLeaf="false">
+                <opaqueActionMoniker Id="0fb54805-6a71-4d20-9005-8b1f9c545468" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="9efd3bd0-ef80-490d-8387-d7bf28e14684" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="93fa1f04-f2e1-46f5-9b4a-4e89dad44053" name="Поиск документов в реестре" isLeaf="false">
+            <elementDefinition Id="29322f1b-361f-4e29-8bde-6212125f0007" />
+            <flowNodeTargets>
+              <controlFlow Id="a15d0393-2a3c-47fe-8acb-d5547735685d" isLeaf="false">
+                <opaqueActionMoniker Id="0fb54805-6a71-4d20-9005-8b1f9c545468" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="affac05e-fbbb-48eb-a76f-453b5bcdc712" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="85678237-e37e-4e82-ae08-638b0ccb91dc" name="Просмотр списка документов в реестре" isLeaf="false">
+            <elementDefinition Id="be8c1fc6-abdb-4264-8cca-dc3f7d4cae5a" />
+            <flowNodeTargets>
+              <controlFlow Id="6e305896-a0ae-40c8-8d72-7d843854a13c" isLeaf="false">
+                <opaqueActionMoniker Id="0fb54805-6a71-4d20-9005-8b1f9c545468" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="694651c4-6675-4bb5-a8c0-e1d2fba83363" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="18d8f4a1-c2e3-4852-9ba2-9b02e49f15ee" name="Добавление задачи в расписание" isLeaf="false">
+            <elementDefinition Id="c4b8df8f-b0c8-42d3-8c7b-868292f7ba60" />
+            <flowNodeTargets>
+              <controlFlow Id="09e00e53-867a-4aa5-9c43-4562ab404778" isLeaf="false">
+                <opaqueActionMoniker Id="f58df422-36b0-4583-b5a5-bd4caec15bd2" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="37059597-aa1f-44a7-89d7-ced15a5e6cff" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="8f741f0e-abc3-4463-97a5-3dbe920b67a4" name="Изменение задачи в расписании" isLeaf="false">
+            <elementDefinition Id="d659cac4-4b44-4cbf-9841-0682888da808" />
+            <flowNodeTargets>
+              <controlFlow Id="2fe9153c-60de-4a36-bc8d-3693259bd3be" isLeaf="false">
+                <opaqueActionMoniker Id="f58df422-36b0-4583-b5a5-bd4caec15bd2" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="b46fc779-d01b-46ec-9bb5-0a07bed16c8d" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="2445a8c1-2256-4edc-994b-b2dd63d827b4" name="Удаление задачи в расписании" isLeaf="false">
+            <elementDefinition Id="0bf6f410-2271-40ba-97b8-91b3272c9ec3" />
+            <flowNodeTargets>
+              <controlFlow Id="67001fae-e1fa-4d1e-b4c7-9faf2f9746a5" isLeaf="false">
+                <opaqueActionMoniker Id="f58df422-36b0-4583-b5a5-bd4caec15bd2" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="40d6eda8-44a7-4129-824c-ce856b9a898a" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="6a917a4b-c134-489a-ab74-02948794bc8b" name="Просмотр расписания" isLeaf="false">
+            <elementDefinition Id="a0d04f26-c3a2-42c6-aa37-86396bee81ee" />
+            <flowNodeTargets>
+              <controlFlow Id="9079829e-ade4-41fe-ad65-5a26e8602d40" isLeaf="false">
+                <opaqueActionMoniker Id="f58df422-36b0-4583-b5a5-bd4caec15bd2" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="1f67d76c-cd97-4276-8441-c5739f5164bb" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="eb504d4e-5cbc-45f7-9996-6eb7ebb977c2" name="Поиск задач в расписании" isLeaf="false">
+            <elementDefinition Id="d80aea1c-4605-4713-a4d8-9ff1d82ef7d0" />
+            <flowNodeTargets>
+              <controlFlow Id="0f6a42a4-b678-4dcf-8ce3-0c38df2a531a" isLeaf="false">
+                <opaqueActionMoniker Id="f58df422-36b0-4583-b5a5-bd4caec15bd2" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="d724fbcc-b6d8-4bb2-8651-ded84e152ef2" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="519c344f-bee4-492e-8628-09559533d88d" name="Добавление клиента к задаче" isLeaf="false">
+            <elementDefinition Id="ecf59b98-9792-4e8d-85b5-21621ae01e25" />
+            <flowNodeTargets>
+              <controlFlow Id="f0eb57de-8434-42f4-bfa9-e32e387a5b3c" isLeaf="false">
+                <opaqueActionMoniker Id="f58df422-36b0-4583-b5a5-bd4caec15bd2" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="4c86c7cf-d57b-4979-a04c-290e0026df50" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="61bd57f7-9dbd-4ae1-9862-6b8ba788800d" name="Удаление клиента в задаче" isLeaf="false">
+            <elementDefinition Id="0323fd4f-8d4e-4879-ba3e-3fcee9a06142" />
+            <flowNodeTargets>
+              <controlFlow Id="341076aa-0644-4c9f-b40e-469b32750a45" isLeaf="false">
+                <opaqueActionMoniker Id="f58df422-36b0-4583-b5a5-bd4caec15bd2" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="8b541911-5a27-4e12-8f7b-22a84e73c76d" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="30db151c-55d7-4966-ab55-7d6a33fd3cbe" name="Просмотр номеров и полей об оплате документов в реестре" isLeaf="false">
+            <elementDefinition Id="2a69b6f5-55b7-4cc5-8c49-f5c0603f3949" />
+            <flowNodeTargets>
+              <controlFlow Id="95f68d73-6067-4f7a-85e6-10c7f13173eb" isLeaf="false">
+                <opaqueActionMoniker Id="0fb54805-6a71-4d20-9005-8b1f9c545468" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="6d6d0aaa-689d-4e11-8193-9f30fa1bfb52" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="351111b2-2d9f-4240-a81f-6399b6925b35" name="Изменение полей об оплате документов в реестре" isLeaf="false">
+            <elementDefinition Id="e5921347-ff0f-45b2-a410-931afd3577e0" />
+            <flowNodeTargets>
+              <controlFlow Id="bf9aef14-bac0-48ad-8817-8cbbd1793fb2" isLeaf="false">
+                <opaqueActionMoniker Id="0fb54805-6a71-4d20-9005-8b1f9c545468" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="4126f02e-ef27-4165-9194-f6925932bfc3" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <initialNode Id="9845e7eb-594a-453d-8ea8-5f935ceae807" name="Initial2" isLeaf="false">
+            <elementDefinition Id="3247983c-767e-4738-84ab-68b1e03c155a" />
+            <flowNodeTargets>
+              <controlFlow Id="7ca11191-348c-40b7-add8-2e1557214616" isLeaf="false">
+                <callOperationActionMoniker Id="c2b4532c-3c16-4ff2-ba54-72da3573973a" LastKnownName="Создание объекта" />
+                <elementDefinition Id="c3811df7-e39f-4b78-b93e-315a9bd3b69c" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="0fb54805-6a71-4d20-9005-8b1f9c545468" name="Ожидание выбора операции" isLeaf="false">
+            <elementDefinition Id="9de20a9e-8f29-4722-96cb-43d8a1fccb02" />
+            <flowNodeTargets>
+              <controlFlow Id="8b1983a5-6f62-4c2a-a3c8-02ed1768c728" isLeaf="false">
+                <callOperationActionMoniker Id="506bc5ca-c56b-4e44-aa45-8d8edaf74e31" LastKnownName="Просмотр списка клиентов в реестре" />
+                <elementDefinition Id="8ee8dd02-573d-4f1e-86a1-1a2b7e8953e7" />
+              </controlFlow>
+              <controlFlow Id="677a490c-912a-4b23-b3b4-9fd1c2e3ec1e" isLeaf="false">
+                <callOperationActionMoniker Id="552f96e8-2698-4207-9a42-8116e2096585" LastKnownName="Добавить  клиента в реестр" />
+                <elementDefinition Id="723ff8a1-7233-4285-ba9e-c428abe69412" />
+              </controlFlow>
+              <controlFlow Id="07c72995-64e7-4458-8701-78c34f7402f0" isLeaf="false">
+                <callOperationActionMoniker Id="93611ee0-7347-4315-b0a3-6169e1b65012" LastKnownName="Добавить  документ в реестр" />
+                <elementDefinition Id="157fa5f0-5195-4a4a-b571-82f4aebca197" />
+              </controlFlow>
+              <controlFlow Id="2f64bc84-1525-44bd-b7b0-485c0fe89159" isLeaf="false">
+                <callOperationActionMoniker Id="2cb6b42e-77db-41bc-999e-a9dcd9281714" LastKnownName="Изменить клиента в реестре" />
+                <elementDefinition Id="81dfe23a-334d-4c8b-9ec9-f5fd9b19998c" />
+              </controlFlow>
+              <controlFlow Id="80c2bce3-1273-45c0-8001-867be62e68f0" isLeaf="false">
+                <callOperationActionMoniker Id="6b9d7539-96f7-41e4-9e48-d22e4be07a0e" LastKnownName="Изменить документ в реестре" />
+                <elementDefinition Id="b551da32-8ec6-4ff7-8a22-78e41300a521" />
+              </controlFlow>
+              <controlFlow Id="ea669cd5-e2ac-4e1b-8863-d0c7a2c16a9a" isLeaf="false">
+                <callOperationActionMoniker Id="13b854f5-4b1f-41b5-a64f-0a8a8ea10306" LastKnownName="Удалить клиента из реестра" />
+                <elementDefinition Id="d4e372df-906b-4bd7-84c3-dbe49a7a15f7" />
+              </controlFlow>
+              <controlFlow Id="470b0c5c-9409-4d5b-b177-29cb02d5c097" isLeaf="false">
+                <callOperationActionMoniker Id="7e3bf14c-afb0-4ccc-9d19-cc50363e47b2" LastKnownName="Удалить документ из реестра" />
+                <elementDefinition Id="cef8d409-6369-421c-b876-062a2db0aab3" />
+              </controlFlow>
+              <controlFlow Id="3ec4aee9-bf37-48fa-a58a-12b9534710e7" isLeaf="false">
+                <callOperationActionMoniker Id="93fa1f04-f2e1-46f5-9b4a-4e89dad44053" LastKnownName="Поиск документов в реестре" />
+                <elementDefinition Id="0f28df90-a691-4858-adee-e4df5e5b8e00" />
+              </controlFlow>
+              <controlFlow Id="18dc2f18-614c-4f35-b2e0-cb3812162d11" isLeaf="false">
+                <callOperationActionMoniker Id="eff92e7c-f13a-43f6-bf85-290308b6af9d" LastKnownName="Поиск клиентов в реестре" />
+                <elementDefinition Id="b7ac2cb8-73a4-4b68-8f9a-e9601665d4d0" />
+              </controlFlow>
+              <controlFlow Id="bfacae21-3014-4e04-8cc5-a96e06a4e630" isLeaf="false">
+                <callOperationActionMoniker Id="94b28cbc-1b9d-462c-868b-fa2e812c75a3" LastKnownName="Запись заднных" />
+                <elementDefinition Id="a7e7c107-f53d-403e-b41b-4eb0e550514d" />
+              </controlFlow>
+              <controlFlow Id="58e98fe4-fc76-414a-84c9-a6dfbea3f2da" isLeaf="false">
+                <callOperationActionMoniker Id="85678237-e37e-4e82-ae08-638b0ccb91dc" LastKnownName="Просмотр списка документов в реестре" />
+                <elementDefinition Id="5d8cefef-8f75-4459-84b9-1fcf2e865c9d" />
+              </controlFlow>
+              <controlFlow Id="81f60fbe-b0c9-4cb0-95ca-db0f4c31e751" isLeaf="false">
+                <callOperationActionMoniker Id="30db151c-55d7-4966-ab55-7d6a33fd3cbe" LastKnownName="Просмотр номеров и полей об оплате документов в реестре" />
+                <elementDefinition Id="ff78d013-60b0-4bff-846e-c43b656e5c8a" />
+              </controlFlow>
+              <controlFlow Id="9910158f-8e58-4a1e-b37c-ce484654ca02" isLeaf="false">
+                <callOperationActionMoniker Id="351111b2-2d9f-4240-a81f-6399b6925b35" LastKnownName="Изменение полей об оплате документов в реестре" />
+                <elementDefinition Id="0466b2cf-f974-466c-95b2-95f4a37a6567" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode Id="54c4e526-78cd-4ed2-a249-45dcc2d20c49" name="ActivityFinal2" isLeaf="false">
+            <elementDefinition Id="409bd33f-5ec3-421a-87e4-3dfe11304118" />
+          </activityFinalNode>
+          <callOperationAction Id="c2b4532c-3c16-4ff2-ba54-72da3573973a" name="Создание объекта" isLeaf="false">
+            <elementDefinition Id="99170d4f-b6cc-46fd-8f5b-072506fe6528" />
+            <flowNodeTargets>
+              <controlFlow Id="0c1129b8-7075-4917-8192-53b8048f3cb5" isLeaf="false">
+                <callOperationActionMoniker Id="51e82b5c-ed86-4f50-a22f-2cb637478988" LastKnownName="Считывание данных" />
+                <elementDefinition Id="24c28c2f-3846-4ee4-be9f-ab952ade3e17" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="51e82b5c-ed86-4f50-a22f-2cb637478988" name="Считывание данных" isLeaf="false">
+            <elementDefinition Id="289cf779-82bd-4f8a-81d9-41b8a29c13e0" />
+            <flowNodeTargets>
+              <controlFlow Id="474fc466-aef7-43a8-b2ac-b0f5397a0503" isLeaf="false">
+                <opaqueActionMoniker Id="0fb54805-6a71-4d20-9005-8b1f9c545468" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="36f6df4f-f073-4242-9411-bc2dc8b5e779" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="94b28cbc-1b9d-462c-868b-fa2e812c75a3" name="Запись заднных" isLeaf="false">
+            <elementDefinition Id="4e8e77dd-2ccd-44ee-b9f8-5108f9dbe018" />
+            <flowNodeTargets>
+              <controlFlow Id="f814f087-616b-4c2e-8e3f-7c02730b3f7a" isLeaf="false">
+                <activityFinalNodeMoniker Id="54c4e526-78cd-4ed2-a249-45dcc2d20c49" LastKnownName="ActivityFinal2" />
+                <elementDefinition Id="aa9859aa-0820-40e7-b5bc-a5f89f27735d" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <initialNode Id="be2d8415-247b-407d-930f-8ad4accab81b" name="Initial3" isLeaf="false">
+            <elementDefinition Id="4d556ca7-1297-40bd-a02e-2cf3fae8337c" />
+            <flowNodeTargets>
+              <controlFlow Id="75cec545-504a-42b8-846d-5efb99488514" isLeaf="false">
+                <callOperationActionMoniker Id="c87b21a6-df14-44fe-90c0-6c83f3ca6fbc" LastKnownName="Operation1" />
+                <elementDefinition Id="7df83482-0b2f-4b51-b0f5-5fbf40306942" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <callOperationAction Id="d3d9934f-4db5-43b1-850d-d071d05814f4" name="Считывание данных" isLeaf="false">
+            <elementDefinition Id="846010a9-4624-47f4-8d71-d754e7e13976" />
+            <flowNodeTargets>
+              <controlFlow Id="ac3553b8-adad-4509-878b-d4eb66ab7176" isLeaf="false">
+                <opaqueActionMoniker Id="f58df422-36b0-4583-b5a5-bd4caec15bd2" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="ceb7e45f-e763-42d2-97a2-143f59ad8621" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="c87b21a6-df14-44fe-90c0-6c83f3ca6fbc" name="Operation1" isLeaf="false">
+            <elementDefinition Id="cadd8946-a630-42dc-b9a3-383fade794a6" />
+            <flowNodeTargets>
+              <controlFlow Id="260ee3c9-b64b-4601-9106-805d5871f06d" isLeaf="false">
+                <callOperationActionMoniker Id="d3d9934f-4db5-43b1-850d-d071d05814f4" LastKnownName="Считывание данных" />
+                <elementDefinition Id="1878930c-d4e5-4fca-a01c-ccce5d953ec3" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <opaqueAction Id="f58df422-36b0-4583-b5a5-bd4caec15bd2" name="Ожидание выбора операции" isLeaf="false">
+            <elementDefinition Id="92489348-8fc8-453b-9111-f2458b465a95" />
+            <flowNodeTargets>
+              <controlFlow Id="778779a0-9f19-43dd-b954-8494830a5ac2" isLeaf="false">
+                <callOperationActionMoniker Id="61bd57f7-9dbd-4ae1-9862-6b8ba788800d" LastKnownName="Удаление клиента в задаче" />
+                <elementDefinition Id="fdef5612-c23b-46ab-84af-9863e2fae3da" />
+              </controlFlow>
+              <controlFlow Id="9a53afe0-09d4-468e-99ad-339a2fa4ceee" isLeaf="false">
+                <callOperationActionMoniker Id="519c344f-bee4-492e-8628-09559533d88d" LastKnownName="Добавление клиента к задаче" />
+                <elementDefinition Id="a17de0c9-bc22-4261-b52e-b9e23c2e243b" />
+              </controlFlow>
+              <controlFlow Id="3bdb16af-cee9-438c-9a03-eb46bafb16f5" isLeaf="false">
+                <callOperationActionMoniker Id="eb504d4e-5cbc-45f7-9996-6eb7ebb977c2" LastKnownName="Поиск задач в расписании" />
+                <elementDefinition Id="4d7d1342-5017-442f-beec-c6d6a3d69885" />
+              </controlFlow>
+              <controlFlow Id="d535cbbc-492e-4462-a93f-4fddf55850c6" isLeaf="false">
+                <callOperationActionMoniker Id="6a917a4b-c134-489a-ab74-02948794bc8b" LastKnownName="Просмотр расписания" />
+                <elementDefinition Id="7503a1b8-3683-4cb3-82f8-64f470045938" />
+              </controlFlow>
+              <controlFlow Id="c07de43a-7155-4651-a05c-a09b718a5e92" isLeaf="false">
+                <callOperationActionMoniker Id="18d8f4a1-c2e3-4852-9ba2-9b02e49f15ee" LastKnownName="Добавление задачи в расписание" />
+                <elementDefinition Id="e570faca-e086-4da7-864b-2d9ad062e801" />
+              </controlFlow>
+              <controlFlow Id="cae930fe-9d65-42da-8b81-ab3bf1bc8bdb" isLeaf="false">
+                <callOperationActionMoniker Id="8f741f0e-abc3-4463-97a5-3dbe920b67a4" LastKnownName="Изменение задачи в расписании" />
+                <elementDefinition Id="af9bbd6e-82f5-40e5-8495-2177efb4d7bd" />
+              </controlFlow>
+              <controlFlow Id="22dabec3-a9d6-4191-9aed-308da7c08bfa" isLeaf="false">
+                <callOperationActionMoniker Id="2445a8c1-2256-4edc-994b-b2dd63d827b4" LastKnownName="Удаление задачи в расписании" />
+                <elementDefinition Id="605ff7fb-7b63-4c2e-9215-a6c4f054ca54" />
+              </controlFlow>
+              <controlFlow Id="e742981b-1324-4dcf-88ed-4ce809a98343" isLeaf="false">
+                <callOperationActionMoniker Id="c63463c6-091f-4e31-a164-971c1096583c" LastKnownName="Запись данных" />
+                <elementDefinition Id="54a52e17-a6c4-471d-ab5f-c5f9d87ea95d" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <callOperationAction Id="c63463c6-091f-4e31-a164-971c1096583c" name="Запись данных" isLeaf="false">
+            <elementDefinition Id="5aa15672-2065-4cdf-8d06-884f5cd81d8e" />
+            <flowNodeTargets>
+              <controlFlow Id="eab0a2cc-1867-4514-8e56-a0dddd17e342" isLeaf="false">
+                <activityFinalNodeMoniker Id="39803310-651e-4810-8e82-6d2458839b09" LastKnownName="ActivityFinal3" />
+                <elementDefinition Id="c3172baf-43d0-4b9f-a30b-b6cc3b6be68f" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <activityFinalNode Id="39803310-651e-4810-8e82-6d2458839b09" name="ActivityFinal3" isLeaf="false">
+            <elementDefinition Id="ca728f55-b61e-4217-9985-d65f49a01df0" />
+          </activityFinalNode>
+          <initialNode Id="b66aface-3002-44ca-ac5a-f3d058405835" name="Initial4" isLeaf="false">
+            <elementDefinition Id="d6963f2b-7175-4ce1-860f-7a363dfa8290" />
+            <flowNodeTargets>
+              <controlFlow Id="c32c244f-d5ec-428a-b7b7-5d82c089402d" isLeaf="false">
+                <callOperationActionMoniker Id="d74870be-d349-42f8-a2b3-26a3cd9e858f" LastKnownName="Создание объекта" />
+                <elementDefinition Id="4ba57ced-ed80-4298-9ed8-83df2e2c00af" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="f9d58ae1-394e-43dd-b027-178bf6246d93" name="Ожидание выбора операции" isLeaf="false">
+            <elementDefinition Id="bd5c7bf4-77d7-4444-953e-d9db1b4d4d19" />
+            <flowNodeTargets>
+              <controlFlow Id="87663626-5fe9-4aec-9bcb-e2fcbbb10ebe" isLeaf="false">
+                <callOperationActionMoniker Id="4de3ea9a-6819-4ccf-86ec-39da6273c611" LastKnownName="Изменение задачи" />
+                <elementDefinition Id="fb7886c6-8fd7-492a-a8b8-2fd90b1528ff" />
+              </controlFlow>
+              <controlFlow Id="5a298df2-477b-4797-b5cd-47078b3ed940" isLeaf="false">
+                <activityFinalNodeMoniker Id="2eac4c0d-e627-4c55-959f-3c9942e113ca" LastKnownName="ActivityFinal4" />
+                <elementDefinition Id="359b09bc-8776-43c0-be10-c63b08b9f1ad" />
+              </controlFlow>
+              <controlFlow Id="a2e21d8e-f552-4408-8448-d06b1b8cff3f" isLeaf="false">
+                <callOperationActionMoniker Id="3e1aef33-b17b-4dec-8b15-27115eddd59a" LastKnownName="Просмотр задачи" />
+                <elementDefinition Id="9f5fb4d3-f7fb-40e1-a631-67a8febd0287" />
+              </controlFlow>
+              <controlFlow Id="d1d254ea-b97b-4d55-a04f-570e3f628e52" isLeaf="false">
+                <callOperationActionMoniker Id="4079aa9c-c347-441f-bc90-718bbfd5d2a2" LastKnownName="Добавление клиента задачи" />
+                <elementDefinition Id="4afa9db9-6506-48f3-9530-9bb3f514de24" />
+              </controlFlow>
+              <controlFlow Id="e5081e20-5137-4ab3-a1a2-b5b3054a243f" isLeaf="false">
+                <callOperationActionMoniker Id="cb91eddf-22fa-46b5-8f07-68cf43a0d958" LastKnownName="Удаление клиента в задачи" />
+                <elementDefinition Id="c1f3f3ef-c66f-4d17-b7d5-a053b5438dde" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <callOperationAction Id="4de3ea9a-6819-4ccf-86ec-39da6273c611" name="Изменение задачи" isLeaf="false">
+            <elementDefinition Id="99395c96-0ff1-4e48-a7b4-c534c400d8bc" />
+            <flowNodeTargets>
+              <controlFlow Id="2842186c-ac70-469a-8c50-a492852d8fd1" isLeaf="false">
+                <opaqueActionMoniker Id="f9d58ae1-394e-43dd-b027-178bf6246d93" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="07cbd112-f754-4792-b29f-22192d1063ff" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="d74870be-d349-42f8-a2b3-26a3cd9e858f" name="Создание объекта" isLeaf="false">
+            <elementDefinition Id="761a93fa-841d-4d6a-8433-f717bb0f5d86" />
+            <flowNodeTargets>
+              <controlFlow Id="e9f2de9e-9b2b-4a56-b986-6565c70f4f38" isLeaf="false">
+                <opaqueActionMoniker Id="f9d58ae1-394e-43dd-b027-178bf6246d93" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="6bd5870a-e04b-4f4b-8b43-faa121ac41a0" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="3e1aef33-b17b-4dec-8b15-27115eddd59a" name="Просмотр задачи" isLeaf="false">
+            <elementDefinition Id="bfd47555-1f5f-4bf1-a196-1144e23332d7" />
+            <flowNodeTargets>
+              <controlFlow Id="3a0bc4a7-47f8-4fe6-bd03-ce06ee9dd7f1" isLeaf="false">
+                <opaqueActionMoniker Id="f9d58ae1-394e-43dd-b027-178bf6246d93" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="d8b98ff6-1760-425b-b01a-69a7cab4a186" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="4079aa9c-c347-441f-bc90-718bbfd5d2a2" name="Добавление клиента задачи" isLeaf="false">
+            <elementDefinition Id="ce25203b-8fc2-4a46-86fe-c149301fb0ee" />
+            <flowNodeTargets>
+              <controlFlow Id="323d7045-c409-4dc8-a46c-4f428ed1a1ca" isLeaf="false">
+                <opaqueActionMoniker Id="f9d58ae1-394e-43dd-b027-178bf6246d93" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="5793b60e-86a3-4447-ae11-3aee21938bf2" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="cb91eddf-22fa-46b5-8f07-68cf43a0d958" name="Удаление клиента в задачи" isLeaf="false">
+            <elementDefinition Id="f0e6fc97-1d33-4b4a-a96f-b9279453368c" />
+            <flowNodeTargets>
+              <controlFlow Id="ff4aae56-f393-43a3-89bf-36e0e7712e1d" isLeaf="false">
+                <opaqueActionMoniker Id="f9d58ae1-394e-43dd-b027-178bf6246d93" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="04f16d91-9713-400d-aec5-04e32ce6eb42" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <activityFinalNode Id="2eac4c0d-e627-4c55-959f-3c9942e113ca" name="ActivityFinal4" isLeaf="false">
+            <elementDefinition Id="2fd8af7a-d0cb-4133-b580-d583300e7a75" />
+          </activityFinalNode>
+          <initialNode Id="3a33004b-6162-4819-955f-9570365c18bc" name="Initial5" isLeaf="false">
+            <elementDefinition Id="82af5ca7-130d-4798-aa82-8218f33e1cea" />
+            <flowNodeTargets>
+              <controlFlow Id="c8913cdd-cf0e-47cf-884a-fe7508666703" isLeaf="false">
+                <callOperationActionMoniker Id="ad9af17d-b986-44fb-9396-28ba65042fd3" LastKnownName="Создание объекта" />
+                <elementDefinition Id="1a782ec2-ac4f-4186-b30e-b3cd2a15a04c" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <callOperationAction Id="ad9af17d-b986-44fb-9396-28ba65042fd3" name="Создание объекта" isLeaf="false">
+            <elementDefinition Id="5c21b9c4-1699-477b-9b83-0f44e60728e1" />
+            <flowNodeTargets>
+              <controlFlow Id="b203418b-056e-4b47-8526-dbf86661f0aa" isLeaf="false">
+                <opaqueActionMoniker Id="9056313d-1f2b-46f0-acba-a170166306c3" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="2176e239-3ae1-4d78-a03b-5e53d10bb8d3" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <opaqueAction Id="9056313d-1f2b-46f0-acba-a170166306c3" name="Ожидание выбора операции" isLeaf="false">
+            <elementDefinition Id="9ffdec18-5e66-4a72-9d81-6ce21c480924" />
+            <flowNodeTargets>
+              <controlFlow Id="aba0b244-7d2a-441e-b377-6de562c4b1a3" isLeaf="false">
+                <callOperationActionMoniker Id="3bad6a9f-a018-40c3-a09c-6327bb70ac74" LastKnownName="Добавить документ" />
+                <elementDefinition Id="6fd02ed4-0a1e-4c32-8be2-99589692337d" />
+              </controlFlow>
+              <controlFlow Id="612d18dd-f93d-4462-97cc-959826922999" isLeaf="false">
+                <callOperationActionMoniker Id="3b0f70ef-a890-49c4-b8c3-2f4f643a44a8" LastKnownName="Изменение клиента" />
+                <elementDefinition Id="650c9c3b-b644-4256-83dd-0e8b8337ae1c" />
+              </controlFlow>
+              <controlFlow Id="b14d78a9-8ded-428a-9337-6ef3cf88dd00" isLeaf="false">
+                <callOperationActionMoniker Id="d4c778f3-51a2-4aa0-861c-c859e3a89ee5" LastKnownName="Просмотр клиента" />
+                <elementDefinition Id="efdd8c75-3fa1-4c4f-ab8c-7e57770471e6" />
+              </controlFlow>
+              <controlFlow Id="78620ee9-8a31-40be-b1c8-63ee8d219ed4" isLeaf="false">
+                <activityFinalNodeMoniker Id="026b93db-e7d4-4b09-bee0-c599a5b567d6" LastKnownName="ActivityFinal5" />
+                <elementDefinition Id="f49db0e0-a8ba-4e56-bea0-c17814a6d8a5" />
+              </controlFlow>
+              <controlFlow Id="12eb6bdd-32b1-4e05-a651-9949551751e9" isLeaf="false">
+                <callOperationActionMoniker Id="449877be-66e9-408e-a467-06025ab6b70d" LastKnownName="Удалить документ" />
+                <elementDefinition Id="2acbf68d-320a-4389-8c0a-814ef747e290" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <callOperationAction Id="3b0f70ef-a890-49c4-b8c3-2f4f643a44a8" name="Изменение клиента" isLeaf="false">
+            <elementDefinition Id="797f7984-e500-43a5-bf14-f7483b76a3a0" />
+            <flowNodeTargets>
+              <controlFlow Id="06c63907-d344-40a0-8abe-bd67a8dba656" isLeaf="false">
+                <opaqueActionMoniker Id="9056313d-1f2b-46f0-acba-a170166306c3" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="c2f5ddee-071f-4ca6-a090-9f6ed90b525a" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="d4c778f3-51a2-4aa0-861c-c859e3a89ee5" name="Просмотр клиента" isLeaf="false">
+            <elementDefinition Id="8bdd7581-a408-41d7-be0c-4f587d6f3854" />
+            <flowNodeTargets>
+              <controlFlow Id="35f65b13-d2dc-480c-8eb2-1974c2c7d4b0" isLeaf="false">
+                <opaqueActionMoniker Id="9056313d-1f2b-46f0-acba-a170166306c3" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="062cd412-51fe-4c98-9f2f-d8417d2bbcb4" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="3bad6a9f-a018-40c3-a09c-6327bb70ac74" name="Добавить документ" isLeaf="false">
+            <elementDefinition Id="36e7f8b6-b264-4b84-a177-dd1e53f6b093" />
+            <flowNodeTargets>
+              <controlFlow Id="2ed023dc-7125-4130-80a9-43559e659539" isLeaf="false">
+                <opaqueActionMoniker Id="9056313d-1f2b-46f0-acba-a170166306c3" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="9bee9bcc-ecb7-41c4-bdee-cc57c664b53c" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="449877be-66e9-408e-a467-06025ab6b70d" name="Удалить документ" isLeaf="false">
+            <elementDefinition Id="78e77af2-184c-417d-be50-7046e8b415f6" />
+            <flowNodeTargets>
+              <controlFlow Id="6dde34da-6825-4178-8c1e-1284c31e1260" isLeaf="false">
+                <opaqueActionMoniker Id="9056313d-1f2b-46f0-acba-a170166306c3" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="f7393192-6599-40d4-9efa-dac513b8ad74" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <activityFinalNode Id="026b93db-e7d4-4b09-bee0-c599a5b567d6" name="ActivityFinal5" isLeaf="false">
+            <elementDefinition Id="3947313d-b348-4ff7-b113-a9702b15c1d8" />
+          </activityFinalNode>
+          <initialNode Id="5da4de57-1bff-4301-ada3-d96101e02381" name="Initial6" isLeaf="false">
+            <elementDefinition Id="8110f515-8d76-48f6-bb29-255dddd97ebb" />
+            <flowNodeTargets>
+              <controlFlow Id="a119e1d3-6e09-4092-8d13-03aafc70ba63" isLeaf="false">
+                <callOperationActionMoniker Id="cc3b6e4e-32e9-4e52-aae7-dd9231462449" LastKnownName="Создание объекта" />
+                <elementDefinition Id="44ae1a48-846a-4d00-8de9-18feb3436f78" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <callOperationAction Id="cc3b6e4e-32e9-4e52-aae7-dd9231462449" name="Создание объекта" isLeaf="false">
+            <elementDefinition Id="2ab388a8-f4aa-401a-9dd2-783fbe2f514f" />
+            <flowNodeTargets>
+              <controlFlow Id="5a032533-ceaa-4b45-96c1-18858ba6f045" isLeaf="false">
+                <opaqueActionMoniker Id="b7d9a940-5aaa-4b52-b017-cfe30a4e0b02" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="67d48b96-4a6f-4ed2-92ac-0f8d5c83b8ce" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <opaqueAction Id="b7d9a940-5aaa-4b52-b017-cfe30a4e0b02" name="Ожидание выбора операции" isLeaf="false">
+            <elementDefinition Id="b04e53bc-8045-47ab-bf69-aae482ba39c3" />
+            <flowNodeTargets>
+              <controlFlow Id="f6d1e983-440b-4153-a3ce-bae1b0855c88" isLeaf="false">
+                <activityFinalNodeMoniker Id="72c5239d-6651-40c9-8d2b-72c2454b2be4" LastKnownName="ActivityFinal6" />
+                <elementDefinition Id="75dcf414-8994-4fca-92b1-3d069ee16669" />
+              </controlFlow>
+              <controlFlow Id="b07e449f-00d0-4f3b-b7ae-428ef43ec097" isLeaf="false">
+                <callOperationActionMoniker Id="6b34969e-741f-40fb-a711-fa64232af93b" LastKnownName="Добавитьклиента" />
+                <elementDefinition Id="a5c61b8e-4449-4723-ae5a-24407308934e" />
+              </controlFlow>
+              <controlFlow Id="da275aaa-bf98-4df3-a29b-0d1a4f8ed36b" isLeaf="false">
+                <callOperationActionMoniker Id="ec50fb9c-0ba2-4cbd-9b93-9cf365ab9930" LastKnownName="Удалить клиента" />
+                <elementDefinition Id="423cb9ca-dd1d-471e-8993-7360d1aed501" />
+              </controlFlow>
+              <controlFlow Id="80c3eb4c-c72d-4bde-b39e-a1441ca5979d" isLeaf="false">
+                <callOperationActionMoniker Id="14566850-de1a-4325-8853-a8443b5c43dd" LastKnownName="Добавлнеи задачи" />
+                <elementDefinition Id="55c5a42a-a974-44ee-8cf2-f9b8079752eb" />
+              </controlFlow>
+              <controlFlow Id="a2b13f28-8c04-452d-a112-68d1f692618e" isLeaf="false">
+                <callOperationActionMoniker Id="a5665118-f9b3-4dea-bae5-24ba9f3abe52" LastKnownName="Изменение задачи" />
+                <elementDefinition Id="83d72aed-b5ca-4c5e-8d68-3bbd44e9a9f9" />
+              </controlFlow>
+              <controlFlow Id="23b1093c-1186-483e-9cb9-e49aa18ed627" isLeaf="false">
+                <callOperationActionMoniker Id="e2d13fbc-12ae-4911-8d59-9877e60d36cb" LastKnownName="Удаление задачи" />
+                <elementDefinition Id="5a5e3434-1f9b-4222-b1ce-0132ae29af68" />
+              </controlFlow>
+              <controlFlow Id="525b65ec-35de-41f4-b665-9e12422b0413" isLeaf="false">
+                <callOperationActionMoniker Id="eb61c418-463d-4420-ac3d-90c848d1bd14" LastKnownName="Просмотр клиентов в реестре" />
+                <elementDefinition Id="26c6406b-6128-4174-979f-f2f49d599635" />
+              </controlFlow>
+              <controlFlow Id="7afb3620-a25e-4f84-8a80-5d165e380b3a" isLeaf="false">
+                <callOperationActionMoniker Id="c1bdce10-556a-4d53-b7e9-83d84e5c3557" LastKnownName="Поиск клиентов в реестре" />
+                <elementDefinition Id="2af9676a-164f-4574-958a-28c71ec730ca" />
+              </controlFlow>
+              <controlFlow Id="b44e9ca5-36c6-4352-9021-ae7bf3b42f71" isLeaf="false">
+                <callOperationActionMoniker Id="50744b30-105d-498d-ba79-5ac1a3682ae1" LastKnownName="Поиск документа в реестре" />
+                <elementDefinition Id="26272f14-d22a-48e6-beed-2bd3fa95df1f" />
+              </controlFlow>
+              <controlFlow Id="93a81e7f-c93f-4369-989f-935903bb3c91" isLeaf="false">
+                <callOperationActionMoniker Id="5a9f3a1c-9d43-4b1e-bf1a-df9260bb37e5" LastKnownName="Просмотр документа в реестре" />
+                <elementDefinition Id="99fcc26c-c9b7-4cdf-bb75-b83bfd22f4c1" />
+              </controlFlow>
+              <controlFlow Id="9cd50058-211c-45aa-997d-4f70665757fd" isLeaf="false">
+                <callOperationActionMoniker Id="35df1f2b-a90e-4453-97ac-89aa50451556" LastKnownName="Поиск задачи" />
+                <elementDefinition Id="1ac453dd-d075-4588-a869-9b5dcc3ccfb4" />
+              </controlFlow>
+              <controlFlow Id="0c9697ff-8654-45e0-8282-b49cba247951" isLeaf="false">
+                <callOperationActionMoniker Id="9bf7e287-03b0-4060-9c3e-a909cc6c7e1f" LastKnownName="Просмотр задач" />
+                <elementDefinition Id="c85b9249-6c2b-450d-836c-4c597dc6b930" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <callOperationAction Id="14566850-de1a-4325-8853-a8443b5c43dd" name="Добавлнеи задачи" isLeaf="false">
+            <elementDefinition Id="4dfeaf50-b313-445f-837f-3eea1424d0ee" />
+            <flowNodeTargets>
+              <controlFlow Id="53aae97f-4835-4cb5-b3ba-1a943cfdb0ce" isLeaf="false">
+                <opaqueActionMoniker Id="b7d9a940-5aaa-4b52-b017-cfe30a4e0b02" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="a8229572-8824-4ce9-a31a-688fc400bad6" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="e2d13fbc-12ae-4911-8d59-9877e60d36cb" name="Удаление задачи" isLeaf="false">
+            <elementDefinition Id="c52dfd42-972d-4f8e-a596-8e84a626c4f0" />
+            <flowNodeTargets>
+              <controlFlow Id="8970702b-8513-457c-ac86-8996fb417974" isLeaf="false">
+                <opaqueActionMoniker Id="b7d9a940-5aaa-4b52-b017-cfe30a4e0b02" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="67b74294-28ae-40c6-b9cc-2ecf13e1ff7d" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="a5665118-f9b3-4dea-bae5-24ba9f3abe52" name="Изменение задачи" isLeaf="false">
+            <elementDefinition Id="65cfed56-e88f-4ecb-97dd-50b10c070759" />
+            <flowNodeTargets>
+              <controlFlow Id="0142a178-2c5a-4850-acd8-ef123a783001" isLeaf="false">
+                <opaqueActionMoniker Id="b7d9a940-5aaa-4b52-b017-cfe30a4e0b02" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="9f793f4a-cb16-4034-bf3d-04431334f51d" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="6b34969e-741f-40fb-a711-fa64232af93b" name="Добавитьклиента" isLeaf="false">
+            <elementDefinition Id="056ff561-0710-4346-9660-aa4732098425" />
+            <flowNodeTargets>
+              <controlFlow Id="b1b7a87a-dcb0-40ab-aacf-ad40e36b22a0" isLeaf="false">
+                <opaqueActionMoniker Id="b7d9a940-5aaa-4b52-b017-cfe30a4e0b02" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="e9832055-b21e-4648-84bf-81bf2f7cf154" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="ec50fb9c-0ba2-4cbd-9b93-9cf365ab9930" name="Удалить клиента" isLeaf="false">
+            <elementDefinition Id="1041bfb2-23ec-4c72-b438-5c10811bd0b9" />
+            <flowNodeTargets>
+              <controlFlow Id="b2e5a0a2-0294-4538-9989-e41f86c08565" isLeaf="false">
+                <opaqueActionMoniker Id="b7d9a940-5aaa-4b52-b017-cfe30a4e0b02" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="af20bb18-c709-49ed-86b4-d51e6a423963" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <activityFinalNode Id="72c5239d-6651-40c9-8d2b-72c2454b2be4" name="ActivityFinal6" isLeaf="false">
+            <elementDefinition Id="6fd18ef8-d998-4a76-addd-c7a386a4214c" />
+          </activityFinalNode>
+          <callOperationAction Id="eb61c418-463d-4420-ac3d-90c848d1bd14" name="Просмотр клиентов в реестре" isLeaf="false">
+            <elementDefinition Id="3eae4a23-258d-4d6f-9bdc-5af34e77f819" />
+            <flowNodeTargets>
+              <controlFlow Id="48aaf254-49fc-44ff-b74f-6820602e2e6a" isLeaf="false">
+                <opaqueActionMoniker Id="b7d9a940-5aaa-4b52-b017-cfe30a4e0b02" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="c6226c28-3d2e-47be-baac-86c5594d7009" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="c1bdce10-556a-4d53-b7e9-83d84e5c3557" name="Поиск клиентов в реестре" isLeaf="false">
+            <elementDefinition Id="4fe975c5-9550-479e-9171-0b3408b1cf43" />
+            <flowNodeTargets>
+              <controlFlow Id="e670ad9a-5fee-4fdc-a945-6044b65e561b" isLeaf="false">
+                <opaqueActionMoniker Id="b7d9a940-5aaa-4b52-b017-cfe30a4e0b02" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="24356da3-d2d1-4cd8-b9de-d01e49637ab1" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="5a9f3a1c-9d43-4b1e-bf1a-df9260bb37e5" name="Просмотр документа в реестре" isLeaf="false">
+            <elementDefinition Id="26f0a78b-2c57-4d2a-a53a-43d0445b691c" />
+            <flowNodeTargets>
+              <controlFlow Id="13914790-db13-4be4-83f5-3db50d4021f4" isLeaf="false">
+                <opaqueActionMoniker Id="b7d9a940-5aaa-4b52-b017-cfe30a4e0b02" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="207e4f68-1fb2-4e6f-95bb-aafa8598718a" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="50744b30-105d-498d-ba79-5ac1a3682ae1" name="Поиск документа в реестре" isLeaf="false">
+            <elementDefinition Id="504b4c5a-b220-4d2f-8263-6945898cdb56" />
+            <flowNodeTargets>
+              <controlFlow Id="21c81bb5-fa05-42c6-9e7c-17d17eca87c4" isLeaf="false">
+                <opaqueActionMoniker Id="b7d9a940-5aaa-4b52-b017-cfe30a4e0b02" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="d13bea38-f259-4077-b8fb-6b7ea3153e50" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="9bf7e287-03b0-4060-9c3e-a909cc6c7e1f" name="Просмотр задач" isLeaf="false">
+            <elementDefinition Id="3180ac6b-dba4-40c0-8f21-0becfc97ad78" />
+            <flowNodeTargets>
+              <controlFlow Id="484f19e7-282f-4fa1-b2ed-852d93506669" isLeaf="false">
+                <opaqueActionMoniker Id="b7d9a940-5aaa-4b52-b017-cfe30a4e0b02" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="170ce26e-1cf9-469f-9819-9aa819fb027b" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+          <callOperationAction Id="35df1f2b-a90e-4453-97ac-89aa50451556" name="Поиск задачи" isLeaf="false">
+            <elementDefinition Id="a3945543-00d0-467d-abb3-1a2f09db2352" />
+            <flowNodeTargets>
+              <controlFlow Id="4eb14132-1bcb-470c-ac70-511e04ded86e" isLeaf="false">
+                <opaqueActionMoniker Id="b7d9a940-5aaa-4b52-b017-cfe30a4e0b02" LastKnownName="Ожидание выбора операции" />
+                <elementDefinition Id="396ef559-e430-4ce1-a076-79be87fafa37" />
+              </controlFlow>
+            </flowNodeTargets>
+          </callOperationAction>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="e3cae20a-1d5d-44d0-845b-2ce2a753921b" name="Office">
+    <elementDefinition Id="e6fc01d3-1355-4f2e-98ae-d4494043342b" />
+    <profileInstances>
+      <packageHasProfileInstances Id="3031587b-c6d4-42ae-a55a-87a92851a3f8">
+        <profileInstance Id="e389a359-dbc0-4eaa-b77b-eb66bfa2f182" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="19bc53b7-eb4c-4cb1-ab85-9ff6048b24bb">
+        <profileInstance Id="6cd9d1ea-9725-43ac-9727-d9703a1c72a3" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="11ed44ab-a9eb-4bb5-8b07-dc886d3e66f2">
+        <profileInstance Id="0f125203-8566-447d-95d2-f1794894d4e2" name="CSharpProfile">
+          <elementDefinition Id="64a30c3b-4375-4f05-a7ac-5a1bb253737c" />
+        </profileInstance>
+        <elementDefinition Id="18188c9d-f955-4218-a5f2-688f29517754" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="e2790907-9e29-4a80-add8-b6c69d62c212">
+        <profileInstance Id="06575948-2f38-422c-a712-81c4374fc4bb" name="TextTemplateBindings">
+          <elementDefinition Id="f5d92cc1-878e-4f70-8388-952564e385ce" />
+        </profileInstance>
+        <elementDefinition Id="aba17536-b07b-48a7-b939-de54ab50ad20" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</activityRootModel>

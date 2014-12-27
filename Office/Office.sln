@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Office", "Office\Office.csproj", "{4332ABF1-EA3A-4CEE-B695-154944C2AF1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfficeLib", "OfficeLib\OfficeLib.csproj", "{72697F5E-2912-4EE0-A97C-DE3E3F82A946}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "OfficeDiagram", "OfficeDiagram\OfficeDiagram.modelproj", "{398B5BAE-58C1-4507-A138-0B05A431920E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPerson", "TestPerson\TestPerson.csproj", "{29A1C1E0-A29F-42B6-889D-496AE26C1332}"
+	ProjectSection(ProjectDependencies) = postProject
+		{72697F5E-2912-4EE0-A97C-DE3E3F82A946} = {72697F5E-2912-4EE0-A97C-DE3E3F82A946}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfficeConsole", "OfficeConsole\OfficeConsole.csproj", "{8DD7E5CA-F020-4846-BF7B-30DFC9B89890}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4332ABF1-EA3A-4CEE-B695-154944C2AF1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4332ABF1-EA3A-4CEE-B695-154944C2AF1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4332ABF1-EA3A-4CEE-B695-154944C2AF1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4332ABF1-EA3A-4CEE-B695-154944C2AF1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72697F5E-2912-4EE0-A97C-DE3E3F82A946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72697F5E-2912-4EE0-A97C-DE3E3F82A946}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72697F5E-2912-4EE0-A97C-DE3E3F82A946}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72697F5E-2912-4EE0-A97C-DE3E3F82A946}.Release|Any CPU.Build.0 = Release|Any CPU
+		{398B5BAE-58C1-4507-A138-0B05A431920E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{398B5BAE-58C1-4507-A138-0B05A431920E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{398B5BAE-58C1-4507-A138-0B05A431920E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{398B5BAE-58C1-4507-A138-0B05A431920E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29A1C1E0-A29F-42B6-889D-496AE26C1332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29A1C1E0-A29F-42B6-889D-496AE26C1332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29A1C1E0-A29F-42B6-889D-496AE26C1332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29A1C1E0-A29F-42B6-889D-496AE26C1332}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DD7E5CA-F020-4846-BF7B-30DFC9B89890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DD7E5CA-F020-4846-BF7B-30DFC9B89890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DD7E5CA-F020-4846-BF7B-30DFC9B89890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DD7E5CA-F020-4846-BF7B-30DFC9B89890}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal

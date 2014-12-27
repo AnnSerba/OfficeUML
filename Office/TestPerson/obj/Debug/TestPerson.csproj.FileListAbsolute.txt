@@ -1,0 +1,15 @@
+D:\Dropbox\Projects13\Office\TestPerson\obj\Debug\TestPerson.csprojResolveAssemblyReference.cache
+D:\Dropbox\Visual Studio 2013\Office\TestPerson\obj\Debug\TestPerson.csprojResolveAssemblyReference.cache
+D:\Dropbox\Visual Studio 2013\Office\TestPerson\bin\Debug\TestPerson.dll
+D:\Dropbox\Visual Studio 2013\Office\TestPerson\bin\Debug\TestPerson.pdb
+D:\Dropbox\Visual Studio 2013\Office\TestPerson\bin\Debug\OfficeLib.dll
+D:\Dropbox\Visual Studio 2013\Office\TestPerson\bin\Debug\OfficeLib.pdb
+D:\Dropbox\Visual Studio 2013\Office\TestPerson\obj\Debug\TestPerson.dll
+D:\Dropbox\Visual Studio 2013\Office\TestPerson\obj\Debug\TestPerson.pdb
+C:\Users\Аня\Google Диск\Visual Studio 2013\Projects\Office\TestPerson\bin\Debug\TestPerson.dll
+C:\Users\Аня\Google Диск\Visual Studio 2013\Projects\Office\TestPerson\bin\Debug\TestPerson.pdb
+C:\Users\Аня\Google Диск\Visual Studio 2013\Projects\Office\TestPerson\bin\Debug\OfficeLib.dll
+C:\Users\Аня\Google Диск\Visual Studio 2013\Projects\Office\TestPerson\bin\Debug\OfficeLib.pdb
+C:\Users\Аня\Google Диск\Visual Studio 2013\Projects\Office\TestPerson\obj\Debug\TestPerson.csprojResolveAssemblyReference.cache
+C:\Users\Аня\Google Диск\Visual Studio 2013\Projects\Office\TestPerson\obj\Debug\TestPerson.dll
+C:\Users\Аня\Google Диск\Visual Studio 2013\Projects\Office\TestPerson\obj\Debug\TestPerson.pdb

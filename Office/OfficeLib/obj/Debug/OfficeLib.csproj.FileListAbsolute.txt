@@ -1,0 +1,19 @@
+C:\Users\Аня\Documents\Visual Studio 2013\Projects\Office\OfficeLib\bin\Debug\OfficeLib.dll
+C:\Users\Аня\Documents\Visual Studio 2013\Projects\Office\OfficeLib\bin\Debug\OfficeLib.pdb
+C:\Users\Аня\Documents\Visual Studio 2013\Projects\Office\OfficeLib\obj\Debug\OfficeLib.csprojResolveAssemblyReference.cache
+C:\Users\Аня\Documents\Visual Studio 2013\Projects\Office\OfficeLib\obj\Debug\OfficeLib.dll
+C:\Users\Аня\Documents\Visual Studio 2013\Projects\Office\OfficeLib\obj\Debug\OfficeLib.pdb
+D:\Dropbox\Projects13\Office\OfficeLib\bin\Debug\OfficeLib.dll
+D:\Dropbox\Projects13\Office\OfficeLib\bin\Debug\OfficeLib.pdb
+D:\Dropbox\Projects13\Office\OfficeLib\obj\Debug\OfficeLib.csprojResolveAssemblyReference.cache
+D:\Dropbox\Projects13\Office\OfficeLib\obj\Debug\OfficeLib.dll
+D:\Dropbox\Projects13\Office\OfficeLib\obj\Debug\OfficeLib.pdb
+D:\Dropbox\Visual Studio 2013\Office\OfficeLib\bin\Debug\OfficeLib.dll
+D:\Dropbox\Visual Studio 2013\Office\OfficeLib\bin\Debug\OfficeLib.pdb
+D:\Dropbox\Visual Studio 2013\Office\OfficeLib\obj\Debug\OfficeLib.dll
+D:\Dropbox\Visual Studio 2013\Office\OfficeLib\obj\Debug\OfficeLib.pdb
+D:\Dropbox\Visual Studio 2013\Office\OfficeLib\obj\Debug\OfficeLib.csprojResolveAssemblyReference.cache
+C:\Users\Аня\Google Диск\Visual Studio 2013\Projects\Office\OfficeLib\bin\Debug\OfficeLib.dll
+C:\Users\Аня\Google Диск\Visual Studio 2013\Projects\Office\OfficeLib\bin\Debug\OfficeLib.pdb
+C:\Users\Аня\Google Диск\Visual Studio 2013\Projects\Office\OfficeLib\obj\Debug\OfficeLib.dll
+C:\Users\Аня\Google Диск\Visual Studio 2013\Projects\Office\OfficeLib\obj\Debug\OfficeLib.pdb

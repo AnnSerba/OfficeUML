@@ -1,0 +1,16 @@
+D:\Dropbox\Visual Studio 2013\Office\Office\bin\Debug\Office.exe.config
+D:\Dropbox\Visual Studio 2013\Office\Office\bin\Debug\Office.exe
+D:\Dropbox\Visual Studio 2013\Office\Office\bin\Debug\Office.pdb
+D:\Dropbox\Visual Studio 2013\Office\Office\obj\Debug\Office.csprojResolveAssemblyReference.cache
+D:\Dropbox\Visual Studio 2013\Office\Office\obj\Debug\Office.Properties.Resources.resources
+D:\Dropbox\Visual Studio 2013\Office\Office\obj\Debug\Office.csproj.GenerateResource.Cache
+D:\Dropbox\Visual Studio 2013\Office\Office\obj\Debug\Office.exe
+D:\Dropbox\Visual Studio 2013\Office\Office\obj\Debug\Office.pdb
+C:\Users\Аня\Google Диск\Visual Studio 2013\Projects\Office\Office\bin\Debug\Office.exe.config
+C:\Users\Аня\Google Диск\Visual Studio 2013\Projects\Office\Office\bin\Debug\Office.exe
+C:\Users\Аня\Google Диск\Visual Studio 2013\Projects\Office\Office\bin\Debug\Office.pdb
+C:\Users\Аня\Google Диск\Visual Studio 2013\Projects\Office\Office\obj\Debug\Office.csprojResolveAssemblyReference.cache
+C:\Users\Аня\Google Диск\Visual Studio 2013\Projects\Office\Office\obj\Debug\Office.Properties.Resources.resources
+C:\Users\Аня\Google Диск\Visual Studio 2013\Projects\Office\Office\obj\Debug\Office.csproj.GenerateResource.Cache
+C:\Users\Аня\Google Диск\Visual Studio 2013\Projects\Office\Office\obj\Debug\Office.exe
+C:\Users\Аня\Google Диск\Visual Studio 2013\Projects\Office\Office\obj\Debug\Office.pdb

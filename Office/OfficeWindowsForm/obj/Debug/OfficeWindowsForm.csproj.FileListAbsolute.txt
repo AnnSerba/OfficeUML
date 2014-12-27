@@ -1,0 +1,17 @@
+C:\Users\Аня\Documents\Visual Studio 2013\Projects\Office\OfficeWindowsForm\bin\Debug\OfficeWindowsForm.exe.config
+C:\Users\Аня\Documents\Visual Studio 2013\Projects\Office\OfficeWindowsForm\obj\Debug\OfficeWindowsForm.csprojResolveAssemblyReference.cache
+C:\Users\Аня\Documents\Visual Studio 2013\Projects\Office\OfficeWindowsForm\obj\Debug\OfficeWindowsForm.Input.resources
+C:\Users\Аня\Documents\Visual Studio 2013\Projects\Office\OfficeWindowsForm\obj\Debug\OfficeWindowsForm.Menu.resources
+C:\Users\Аня\Documents\Visual Studio 2013\Projects\Office\OfficeWindowsForm\obj\Debug\OfficeWindowsForm.Properties.Resources.resources
+C:\Users\Аня\Documents\Visual Studio 2013\Projects\Office\OfficeWindowsForm\obj\Debug\OfficeWindowsForm.csproj.GenerateResource.Cache
+C:\Users\Аня\Documents\Visual Studio 2013\Projects\Office\OfficeWindowsForm\bin\Debug\OfficeWindowsForm.exe
+C:\Users\Аня\Documents\Visual Studio 2013\Projects\Office\OfficeWindowsForm\bin\Debug\OfficeWindowsForm.pdb
+C:\Users\Аня\Documents\Visual Studio 2013\Projects\Office\OfficeWindowsForm\obj\Debug\OfficeWindowsForm.ChangeTask.resources
+C:\Users\Аня\Documents\Visual Studio 2013\Projects\Office\OfficeWindowsForm\obj\Debug\OfficeWindowsForm.ShowClients.resources
+C:\Users\Аня\Documents\Visual Studio 2013\Projects\Office\OfficeWindowsForm\obj\Debug\OfficeWindowsForm.exe
+C:\Users\Аня\Documents\Visual Studio 2013\Projects\Office\OfficeWindowsForm\obj\Debug\OfficeWindowsForm.pdb
+C:\Users\Аня\Documents\Visual Studio 2013\Projects\Office\OfficeWindowsForm\obj\Debug\OfficeWindowsForm.ShowDocuments.resources
+C:\Users\Аня\Documents\Visual Studio 2013\Projects\Office\OfficeWindowsForm\obj\Debug\OfficeWindowsForm.ShowSchedule.resources
+C:\Users\Аня\documents\visual studio 2013\Projects\Office\OfficeWindowsForm\obj\Debug\OfficeWindowsForm.ChangeClient.resources
+C:\Users\Аня\documents\visual studio 2013\Projects\Office\OfficeWindowsForm\obj\Debug\OfficeWindowsForm.ChangeDocument.resources
+C:\Users\Аня\documents\visual studio 2013\Projects\Office\OfficeWindowsForm\obj\Debug\OfficeWindowsForm.ShowNumberPolePayment.resources

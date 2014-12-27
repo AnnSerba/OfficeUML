@@ -1,0 +1,32 @@
+C:\Users\Аня\Documents\Visual Studio 2013\Projects\Office\OfficeConsole\bin\Debug\OfficeConsole.exe.config
+C:\Users\Аня\Documents\Visual Studio 2013\Projects\Office\OfficeConsole\bin\Debug\OfficeConsole.exe
+C:\Users\Аня\Documents\Visual Studio 2013\Projects\Office\OfficeConsole\bin\Debug\OfficeConsole.pdb
+C:\Users\Аня\Documents\Visual Studio 2013\Projects\Office\OfficeConsole\bin\Debug\OfficeLib.dll
+C:\Users\Аня\Documents\Visual Studio 2013\Projects\Office\OfficeConsole\bin\Debug\OfficeLib.pdb
+C:\Users\Аня\Documents\Visual Studio 2013\Projects\Office\OfficeConsole\obj\Debug\OfficeConsole.csprojResolveAssemblyReference.cache
+C:\Users\Аня\Documents\Visual Studio 2013\Projects\Office\OfficeConsole\obj\Debug\OfficeConsole.exe
+C:\Users\Аня\Documents\Visual Studio 2013\Projects\Office\OfficeConsole\obj\Debug\OfficeConsole.pdb
+D:\Dropbox\Projects13\Office\OfficeConsole\bin\Debug\OfficeConsole.exe.config
+D:\Dropbox\Projects13\Office\OfficeConsole\obj\Debug\OfficeConsole.exe
+D:\Dropbox\Projects13\Office\OfficeConsole\obj\Debug\OfficeConsole.pdb
+D:\Dropbox\Projects13\Office\OfficeConsole\bin\Debug\OfficeConsole.exe
+D:\Dropbox\Projects13\Office\OfficeConsole\bin\Debug\OfficeConsole.pdb
+D:\Dropbox\Projects13\Office\OfficeConsole\bin\Debug\OfficeLib.dll
+D:\Dropbox\Projects13\Office\OfficeConsole\bin\Debug\OfficeLib.pdb
+D:\Dropbox\Projects13\Office\OfficeConsole\obj\Debug\OfficeConsole.csprojResolveAssemblyReference.cache
+D:\Dropbox\Visual Studio 2013\Office\OfficeConsole\bin\Debug\OfficeConsole.exe.config
+D:\Dropbox\Visual Studio 2013\Office\OfficeConsole\obj\Debug\OfficeConsole.exe
+D:\Dropbox\Visual Studio 2013\Office\OfficeConsole\obj\Debug\OfficeConsole.pdb
+D:\Dropbox\Visual Studio 2013\Office\OfficeConsole\bin\Debug\OfficeConsole.exe
+D:\Dropbox\Visual Studio 2013\Office\OfficeConsole\bin\Debug\OfficeConsole.pdb
+D:\Dropbox\Visual Studio 2013\Office\OfficeConsole\bin\Debug\OfficeLib.dll
+D:\Dropbox\Visual Studio 2013\Office\OfficeConsole\bin\Debug\OfficeLib.pdb
+D:\Dropbox\Visual Studio 2013\Office\OfficeConsole\obj\Debug\OfficeConsole.csprojResolveAssemblyReference.cache
+C:\Users\Аня\Google Диск\Visual Studio 2013\Projects\Office\OfficeConsole\bin\Debug\OfficeConsole.exe.config
+C:\Users\Аня\Google Диск\Visual Studio 2013\Projects\Office\OfficeConsole\obj\Debug\OfficeConsole.exe
+C:\Users\Аня\Google Диск\Visual Studio 2013\Projects\Office\OfficeConsole\obj\Debug\OfficeConsole.pdb
+C:\Users\Аня\Google Диск\Visual Studio 2013\Projects\Office\OfficeConsole\bin\Debug\OfficeConsole.exe
+C:\Users\Аня\Google Диск\Visual Studio 2013\Projects\Office\OfficeConsole\bin\Debug\OfficeConsole.pdb
+C:\Users\Аня\Google Диск\Visual Studio 2013\Projects\Office\OfficeConsole\bin\Debug\OfficeLib.dll
+C:\Users\Аня\Google Диск\Visual Studio 2013\Projects\Office\OfficeConsole\bin\Debug\OfficeLib.pdb
+C:\Users\Аня\Google Диск\Visual Studio 2013\Projects\Office\OfficeConsole\obj\Debug\OfficeConsole.csprojResolveAssemblyReference.cache

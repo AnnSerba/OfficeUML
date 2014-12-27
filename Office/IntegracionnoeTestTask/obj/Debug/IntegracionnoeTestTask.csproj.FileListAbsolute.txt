@@ -1,0 +1,6 @@
+C:\Users\Аня\Documents\Visual Studio 2013\Projects\Office\IntegracionnoeTestTask\bin\Debug\IntegracionnoeTestTask.exe.config
+C:\Users\Аня\Documents\Visual Studio 2013\Projects\Office\IntegracionnoeTestTask\bin\Debug\IntegracionnoeTestTask.exe
+C:\Users\Аня\Documents\Visual Studio 2013\Projects\Office\IntegracionnoeTestTask\bin\Debug\IntegracionnoeTestTask.pdb
+C:\Users\Аня\Documents\Visual Studio 2013\Projects\Office\IntegracionnoeTestTask\obj\Debug\IntegracionnoeTestTask.csprojResolveAssemblyReference.cache
+C:\Users\Аня\Documents\Visual Studio 2013\Projects\Office\IntegracionnoeTestTask\obj\Debug\IntegracionnoeTestTask.exe
+C:\Users\Аня\Documents\Visual Studio 2013\Projects\Office\IntegracionnoeTestTask\obj\Debug\IntegracionnoeTestTask.pdb

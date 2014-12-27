@@ -1,0 +1,6 @@
+C:\Users\Аня\documents\visual studio 2013\Projects\Office\TestClass\bin\Debug\TestClass.exe.config
+C:\Users\Аня\documents\visual studio 2013\Projects\Office\TestClass\bin\Debug\TestClass.exe
+C:\Users\Аня\documents\visual studio 2013\Projects\Office\TestClass\bin\Debug\TestClass.pdb
+C:\Users\Аня\documents\visual studio 2013\Projects\Office\TestClass\obj\Debug\TestClass.exe
+C:\Users\Аня\documents\visual studio 2013\Projects\Office\TestClass\obj\Debug\TestClass.pdb
+C:\Users\Аня\documents\visual studio 2013\Projects\Office\TestClass\obj\Debug\TestClass.csprojResolveAssemblyReference.cache
